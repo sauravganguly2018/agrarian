@@ -1,9 +1,12 @@
 import React, { useEffect } from 'react';
 import Hero from '../components/Hero';
+import CategoryBar from '../components/CategoryBar';
+import Promotes from '../components/Promotes';
 import Stats from '../components/Stats';
+import SolutionsSection from '../components/SolutionsSection';
 import Products from '../components/Products';
+import FinanceSection from '../components/FinanceSection';
 import GrowersStories from '../components/GrowersStories';
-import Gallery from '../components/Gallery';
 
 const Home = () => {
   useEffect(() => {
@@ -13,11 +16,13 @@ const Home = () => {
   return (
     <main className="flex-grow pt-20 animate-fade-in-up">
       <Hero />
+      <CategoryBar />
+      <Promotes />
       <Stats />
-
+      <SolutionsSection />
       <Products />
+      <FinanceSection />
       <GrowersStories />
-      <Gallery />
     </main>
   );
 };

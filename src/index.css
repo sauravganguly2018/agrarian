@@ -8,6 +8,17 @@
   }
 }
 
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 30s linear infinite;
+}
+
 body {
   font-family: 'Inter', sans-serif;
   @apply text-gray-800 bg-gray-50;

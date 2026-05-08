@@ -1,91 +1,189 @@
 import React, { useEffect } from 'react';
-import { MapPin, Phone, Mail, Clock } from 'lucide-react';
+import { MapPin, Phone, Mail, Clock, ArrowUpRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Contact = () => {
   useEffect(() => {
     document.title = "Contact Us | Agrarian";
   }, []);
+
+  const [formData, setFormData] = React.useState({
+    name: '',
+    email: '',
+    contact: '',
+    message: ''
+  });
+
+  const [errors, setErrors] = React.useState({});
+
+  const validate = () => {
+    const newErrors = {};
+    if (!formData.name.trim()) newErrors.name = "Name is required";
+    if (!formData.email.trim()) {
+      newErrors.email = "Email is required";
+    } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
+      newErrors.email = "Email is invalid";
+    }
+    if (!formData.contact.trim()) newErrors.contact = "Contact details are required";
+
+    setErrors(newErrors);
+    return Object.keys(newErrors).length === 0;
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    if (validate()) {
+      // We'll use Formspree as an example service (requires no backend)
+      // The user should replace 'YOUR_FORMSPREE_ID' with their actual ID
+      const FORMSPREE_ENDPOINT = "https://formspree.io/f/mjgleneg";
+
+      try {
+        const response = await fetch(FORMSPREE_ENDPOINT, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(formData)
+        });
+
+        if (response.ok) {
+          alert("Thank you! Your message has been sent successfully.");
+          setFormData({ name: '', email: '', contact: '', message: '' });
+        } else {
+          alert("Oops! There was a problem submitting your form.");
+        }
+      } catch (error) {
+        alert("Oops! There was a problem connecting to the server.");
+      }
+    }
+  };
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData(prev => ({ ...prev, [name]: value }));
+    // Clear error when user starts typing
+    if (errors[name]) {
+      setErrors(prev => ({ ...prev, [name]: '' }));
+    }
+  };
+
   return (
-    <main className="flex-grow pt-24 pb-20 bg-gray-50 animate-fade-in-up">
-      
-      {/* Header Area */}
-      <div className="bg-agrarian-dark text-white py-16 mb-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-5xl font-extrabold mb-4">
-            Get in <span className="text-agrarian-accent font-serif italic">Touch</span>
+    <main className="flex-grow bg-white animate-fade-in-up">
+      {/* Hero Banner */}
+      <section className="relative h-[400px] md:h-[500px] flex items-end overflow-hidden">
+        <div className="absolute inset-0">
+          <img
+            src="/images/0c92d06746f135612ff1172b9ae4f720da293224.jpg"
+            alt="Become a Partner"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-black/30" />
+        </div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full pb-12 md:pb-16">
+          <h1 className="text-4xl md:text-6xl font-black text-white tracking-tighter uppercase leading-none">
+            BECOME A <span className="text-[#76b947]">PARTNER</span>
           </h1>
-          <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-            We'd love to hear from you. Reach out with any questions about our solutions, partnerships, or general inquiries.
-          </p>
         </div>
+      </section>
+
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+
+        <div className="bg-white rounded-[2rem] shadow-2xl overflow-hidden flex flex-col lg:flex-row min-h-[600px] border border-gray-100">
+
+          {/* Left Info Panel */}
+          <div className="lg:w-[45%] bg-[#0a1f14] text-white p-10 md:p-16 flex flex-col justify-center">
+            <div className="space-y-12">
+              <div>
+                <h3 className="text-xl font-bold text-gray-400 mb-2 uppercase tracking-wider">Queries</h3>
+                <a href="mailto:connect@myagrarian.com" className="text-xl md:text-2xl font-medium border-b border-white/30 hover:border-white transition-colors">
+                  connect@myagrarian.com
+                </a>
+              </div>
+
+              <div>
+                <h3 className="text-xl font-bold text-gray-400 mb-2 uppercase tracking-wider">Customer Care No.</h3>
+                <p className="text-xl md:text-2xl font-medium">+91 80-764328671</p>
+              </div>
+
+              <div className="pt-8 border-t border-white/10">
+                <h3 className="text-xl font-bold text-gray-400 mb-2 uppercase tracking-wider">Corporate Office</h3>
+                <p className="text-lg md:text-xl text-gray-200 leading-relaxed">
+                  506, Fifth Floor, Welldone
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-xl font-bold text-gray-400 mb-2 uppercase tracking-wider">Manufacturing Unit</h3>
+                <p className="text-lg md:text-xl text-gray-200 leading-relaxed">
+                  Block RS. 1302, Paiki, Samarkha - Tech Park, Sector-48, Gurgaon-122018 Ajarpura Road, Ajarpura, Dist- Anand-388 310
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Right Form Panel */}
+          <div className="lg:w-[55%] p-10 md:p-16 bg-white">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-12">Channel Partner</h2>
+
+            <form onSubmit={handleSubmit} className="space-y-6">
+              <div>
+                <label className="block text-sm font-bold text-gray-700 mb-2">Your name <span className="text-red-500">*</span></label>
+                <input
+                  type="text"
+                  name="name"
+                  value={formData.name}
+                  onChange={handleChange}
+                  placeholder="Enter your name"
+                  className={`w-full px-6 py-4 rounded-xl border ${errors.name ? 'border-red-500 bg-red-50/30' : 'border-gray-200'} focus:border-[#76b947] focus:ring-2 focus:ring-[#76b947]/20 outline-none transition-all text-lg`}
+                />
+                {errors.name && <p className="mt-1 text-red-500 text-sm font-medium">{errors.name}</p>}
+              </div>
+              <div>
+                <label className="block text-sm font-bold text-gray-700 mb-2">Your email <span className="text-red-500">*</span></label>
+                <input
+                  type="email"
+                  name="email"
+                  value={formData.email}
+                  onChange={handleChange}
+                  placeholder="Enter your email"
+                  className={`w-full px-6 py-4 rounded-xl border ${errors.email ? 'border-red-500 bg-red-50/30' : 'border-gray-200'} focus:border-[#76b947] focus:ring-2 focus:ring-[#76b947]/20 outline-none transition-all text-lg`}
+                />
+                {errors.email && <p className="mt-1 text-red-500 text-sm font-medium">{errors.email}</p>}
+              </div>
+              <div>
+                <label className="block text-sm font-bold text-gray-700 mb-2">Contact Details <span className="text-red-500">*</span></label>
+                <input
+                  type="text"
+                  name="contact"
+                  value={formData.contact}
+                  onChange={handleChange}
+                  placeholder="Phone number or other contact info"
+                  className={`w-full px-6 py-4 rounded-xl border ${errors.contact ? 'border-red-500 bg-red-50/30' : 'border-gray-200'} focus:border-[#76b947] focus:ring-2 focus:ring-[#76b947]/20 outline-none transition-all text-lg`}
+                />
+                {errors.contact && <p className="mt-1 text-red-500 text-sm font-medium">{errors.contact}</p>}
+              </div>
+              <div>
+                <label className="block text-sm font-bold text-gray-700 mb-2">Message</label>
+                <textarea
+                  name="message"
+                  value={formData.message}
+                  onChange={handleChange}
+                  placeholder="Write your message here..."
+                  rows="4"
+                  className="w-full px-6 py-4 rounded-xl border border-gray-200 focus:border-[#76b947] focus:ring-2 focus:ring-[#76b947]/20 outline-none transition-all text-lg resize-none"
+                ></textarea>
+              </div>
+
+              <button
+                type="submit"
+                className="w-full bg-[#ffb300] hover:bg-[#ffa000] text-black font-bold py-5 rounded-xl transition-all shadow-lg hover:shadow-xl active:scale-[0.98] text-xl uppercase tracking-wider"
+              >
+                Submit
+              </button>
+            </form>
+          </div>
+
+        </div>
+
       </div>
-
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
-        {/* Contact Info Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
-          <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100 flex flex-col items-center text-center hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
-            <div className="w-16 h-16 rounded-full bg-agrarian-light flex items-center justify-center text-agrarian-green mb-6">
-              <MapPin className="w-8 h-8" />
-            </div>
-            <h4 className="font-bold text-gray-900 text-xl mb-3">Our Location</h4>
-            <p className="text-gray-600 leading-relaxed">
-              123 Agriculture Hub,<br />
-              Karnal, Haryana 132001<br />
-              India
-            </p>
-          </div>
-
-          <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100 flex flex-col items-center text-center hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
-            <div className="w-16 h-16 rounded-full bg-agrarian-light flex items-center justify-center text-agrarian-green mb-6">
-              <Phone className="w-8 h-8" />
-            </div>
-            <h4 className="font-bold text-gray-900 text-xl mb-3">Phone Number</h4>
-            <div className="text-gray-600 space-y-1">
-              <p>+91 98765 43210</p>
-              <p>+91 11 2345 6789</p>
-            </div>
-          </div>
-
-          <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100 flex flex-col items-center text-center hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
-            <div className="w-16 h-16 rounded-full bg-agrarian-light flex items-center justify-center text-agrarian-green mb-6">
-              <Mail className="w-8 h-8" />
-            </div>
-            <h4 className="font-bold text-gray-900 text-xl mb-3">Email Address</h4>
-            <div className="text-gray-600 space-y-1">
-              <p>info@agrarian.com</p>
-              <p>support@agrarian.com</p>
-            </div>
-          </div>
-
-          <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100 flex flex-col items-center text-center hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
-            <div className="w-16 h-16 rounded-full bg-agrarian-light flex items-center justify-center text-agrarian-green mb-6">
-              <Clock className="w-8 h-8" />
-            </div>
-            <h4 className="font-bold text-gray-900 text-xl mb-3">Working Hours</h4>
-            <div className="text-gray-600 space-y-1">
-              <p>Monday - Saturday</p>
-              <p>09:00 AM - 06:00 PM</p>
-            </div>
-          </div>
-        </div>
-
-        {/* Map Section */}
-        <div className="w-full h-[500px] bg-white rounded-[2.5rem] shadow-sm border border-gray-100 overflow-hidden relative group">
-          <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1430030.13840733!2d75.14811801262967!3d29.215570076210087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d40217dc3e061%3A0xe53be0f65d606138!2sHaryana!5e0!3m2!1sen!2sin!4v1703164478174!5m2!1sen!2sin" 
-            className="w-full h-full border-0 grayscale group-hover:grayscale-0 transition-all duration-700"
-            allowFullScreen="" 
-            loading="lazy" 
-            referrerPolicy="no-referrer-when-downgrade"
-            title="Agrarian Haryana Map"
-          ></iframe>
-          
-          {/* Aesthetic Overlay hint */}
-          <div className="absolute inset-0 pointer-events-none rounded-[2.5rem] shadow-[inset_0_0_50px_rgba(0,0,0,0.1)]"></div>
-        </div>
-      </div>
-
     </main>
   );
 };

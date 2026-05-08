@@ -1,72 +1,96 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
   const location = useLocation();
 
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 50);
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   const isHome = location.pathname === '/';
-  const isAbout = location.pathname === '/about';
-  const isSolutions = location.pathname === '/solutions';
-  const isContact = location.pathname === '/contact';
+  const isAbout = location.pathname.startsWith('/about');
+  const isSolutions = location.pathname.startsWith('/solutions');
+  const isContact = location.pathname.startsWith('/contact');
 
   return (
-    <header className="fixed w-full z-50 bg-white/90 backdrop-blur-md shadow-sm">
+    <header className={`fixed w-full z-50 transition-all duration-300 ${
+      scrolled 
+        ? 'bg-[#0a1f14]/95 backdrop-blur-md py-2 border-b border-white/10 shadow-xl' 
+        : 'bg-white/90 backdrop-blur-md py-3.5 border-b border-gray-100'
+    }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-20">
+        <div className="flex justify-between items-center h-16 md:h-18">
           
           <div className="flex items-center">
             <Link to="/">
-              <img src="/images/Isolation_Mode.svg" alt="Agrarian Logo" className="h-10 w-auto" />
+              <img src="/images/Isolation_Mode.svg" alt="Agrarian Logo" className="h-8 md:h-10 w-auto" />
             </Link>
           </div>
-
+ 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-8">
-            <Link 
-              to="/" 
-              aria-current={isHome ? "page" : undefined}
-              className={`px-6 py-2 rounded-full font-medium transition-colors ${isHome ? 'bg-agrarian-green text-white shadow-md' : 'text-gray-600 hover:text-agrarian-green'}`}
-            >
-              Home
-            </Link>
-
-            <Link 
-              to="/solutions" 
-              aria-current={isSolutions ? "page" : undefined}
-              className={`px-6 py-2 rounded-full font-medium transition-colors ${isSolutions ? 'bg-agrarian-green text-white shadow-md' : 'text-gray-600 hover:text-agrarian-green'}`}
-            >
-              Our Solutions
-            </Link>
-
-            <Link 
-              to="/about" 
-              aria-current={isAbout ? "page" : undefined}
-              className={`px-6 py-2 rounded-full font-medium transition-colors ${isAbout ? 'bg-agrarian-green text-white shadow-md' : 'text-gray-600 hover:text-agrarian-green'}`}
-            >
-              About Us
-            </Link>
-
-            <Link 
-              to="/contact" 
-              aria-current={isContact ? "page" : undefined}
-              className={`px-6 py-2 rounded-full font-medium transition-colors ${isContact ? 'bg-agrarian-green text-white shadow-md' : 'text-gray-600 hover:text-agrarian-green'}`}
-            >
-              Contact Us
-            </Link>
-          </nav>
-
-          <div className="hidden md:block w-10"></div>
-
+          <div className="hidden md:flex items-center space-x-4">
+            <nav className="flex items-center space-x-2">
+              <Link 
+                to="/" 
+                className={`px-6 py-2 rounded-full text-[15px] font-bold transition-all ${
+                  scrolled 
+                    ? (isHome ? 'bg-white text-[#0a1f14]' : 'text-white hover:text-[#76b947]')
+                    : (isHome ? 'bg-[#214d3e] text-white shadow-md' : 'text-gray-800 hover:text-agrarian-green')
+                }`}
+              >
+                Home
+              </Link>
+ 
+              <Link 
+                to="/solutions" 
+                className={`px-6 py-2 rounded-full text-[15px] font-bold transition-all ${
+                  scrolled 
+                    ? (isSolutions ? 'bg-white text-[#0a1f14]' : 'text-white hover:text-[#76b947]')
+                    : (isSolutions ? 'bg-[#214d3e] text-white shadow-md' : 'text-gray-800 hover:text-agrarian-green')
+                }`}
+              >
+                Our solutions
+              </Link>
+ 
+              <Link 
+                to="/about" 
+                className={`px-6 py-2 rounded-full text-[15px] font-bold transition-all ${
+                  scrolled 
+                    ? (isAbout ? 'bg-white text-[#0a1f14]' : 'text-white hover:text-[#76b947]')
+                    : (isAbout ? 'bg-[#214d3e] text-white shadow-md' : 'text-gray-800 hover:text-agrarian-green')
+                }`}
+              >
+                About Us
+              </Link>
+ 
+              <Link 
+                to="/contact" 
+                className={`px-6 py-2 rounded-full text-[15px] font-bold transition-all ${
+                  scrolled 
+                    ? (isContact ? 'bg-white text-[#0a1f14]' : 'text-white hover:text-[#76b947]')
+                    : (isContact ? 'bg-[#214d3e] text-white shadow-md' : 'text-gray-800 hover:text-agrarian-green')
+                }`}
+              >
+                Contact Us
+              </Link>
+            </nav>
+          </div>
+ 
           {/* Mobile menu button */}
           <div className="md:hidden flex items-center">
             <button 
               onClick={() => setIsOpen(!isOpen)} 
-              label={isOpen ? "Close menu" : "Open menu"}
               aria-label={isOpen ? "Close menu" : "Open menu"}
               aria-expanded={isOpen}
-              className="text-gray-600 focus:outline-none"
+              className={`focus:outline-none ${scrolled ? 'text-white' : 'text-gray-600'}`}
             >
               {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </button>
@@ -76,12 +100,12 @@ const Header = () => {
 
       {/* Mobile Navigation */}
       {isOpen && (
-        <div className="md:hidden bg-white shadow-lg absolute w-full z-50 transform origin-top transition-all">
-          <div className="px-4 pt-2 pb-6 space-y-2">
+        <div className="md:hidden bg-white shadow-lg absolute w-full z-50 border-t border-gray-100">
+          <div className="px-4 pt-2 pb-6 space-y-1">
             <Link 
               to="/" 
               onClick={() => setIsOpen(false)} 
-              className={`block px-4 py-3 rounded-xl font-medium ${isHome ? 'bg-agrarian-green text-white shadow-sm' : 'text-gray-700 hover:bg-gray-50'}`}
+              className={`block px-4 py-3 rounded-xl font-bold transition-all ${isHome ? 'bg-[#214d3e] text-white' : 'text-gray-700 hover:bg-gray-50'}`}
             >
               Home
             </Link>
@@ -89,15 +113,15 @@ const Header = () => {
             <Link 
               to="/solutions" 
               onClick={() => setIsOpen(false)} 
-              className={`block px-4 py-3 rounded-xl font-medium mt-2 ${isSolutions ? 'bg-agrarian-green text-white shadow-sm' : 'text-gray-700 hover:bg-gray-50'}`}
+              className={`block px-4 py-3 rounded-xl font-bold transition-all ${isSolutions ? 'bg-[#214d3e] text-white' : 'text-gray-700 hover:bg-gray-50'}`}
             >
-              Our Solutions
+              Our solutions
             </Link>
 
             <Link 
               to="/about" 
               onClick={() => setIsOpen(false)} 
-              className={`block px-4 py-3 rounded-xl font-medium mt-2 ${isAbout ? 'bg-agrarian-green text-white shadow-sm' : 'text-gray-700 hover:bg-gray-50'}`}
+              className={`block px-4 py-3 rounded-xl font-bold transition-all ${isAbout ? 'bg-[#214d3e] text-white' : 'text-gray-700 hover:bg-gray-50'}`}
             >
               About Us
             </Link>
@@ -105,7 +129,7 @@ const Header = () => {
             <Link 
               to="/contact" 
               onClick={() => setIsOpen(false)} 
-              className={`block px-4 py-3 rounded-xl font-medium mt-2 ${isContact ? 'bg-agrarian-green text-white shadow-sm' : 'text-gray-700 hover:bg-gray-50'}`}
+              className={`block px-4 py-3 rounded-xl font-bold transition-all ${isContact ? 'bg-[#214d3e] text-white' : 'text-gray-700 hover:bg-gray-50'}`}
             >
               Contact Us
             </Link>

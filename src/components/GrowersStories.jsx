@@ -75,9 +75,9 @@ const GrowersStories = () => {
     <section className="py-24 bg-gray-50 flex flex-col items-center">
       <div className="w-full max-w-7xl px-4 sm:px-6 lg:px-8">
         
-        <div className="mb-12">
-          <h2 className="text-4xl font-extrabold text-gray-900 tracking-tight">
-            Growers <span className="text-agrarian-green font-serif italic font-medium">Stories</span>
+        <div className="mb-16">
+          <h2 className="inline-block text-4xl font-black text-[#1e1e1e] tracking-tight uppercase transform scale-y-[1.15] origin-left">
+            GROWERS <span className="text-[#76b947]">STORIES</span>
           </h2>
         </div>
 

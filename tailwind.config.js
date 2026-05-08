@@ -16,6 +16,8 @@ export default {
       },
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
+        neue: ['Neue Montreal', 'PP Neue Montreal', 'sans-serif'],
+        bebas: ['Bebas Neue', 'cursive'],
       },
       animation: {
         'fade-in-up': 'fadeInUp 0.8s ease-out forwards',

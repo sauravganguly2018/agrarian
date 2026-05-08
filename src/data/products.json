@@ -1,0 +1,193 @@
+[
+  {
+    "category": "Soil Health",
+    "isBiological": true,
+    "productName": "BIO NPK",
+    "solution": "Biological Solutions",
+    "description": "Bio-NPK is a high-performance natural fertilizer that naturally unlocks ‘trapped’ soil nutrients. Its specialized bacterial blend fixes nitrogen and mobilizes phosphorus and potash, delivering essential macro and micro-nutrients for maximum crop yield.",
+    "availabePacking": "25 Kg",
+    "application": [
+      {
+        "stage": "First",
+        "details": "During field preparation or before planting/sowing."
+      },
+      {
+        "stage": "Second",
+        "details": "During the vegetative growth/tillering stage of the crop."
+      }
+    ],
+    "dosage": "25 kg/acre, Broadcast.",
+    "crops": "Suitable for all crops.",
+    "benefits": [
+      "Enhanced availability of N, P & K",
+      "Increased micro-nutrients access",
+      "Reduced fertilizer cost",
+      "Optimized stress & soil health",
+      "Improved root architecture"
+    ],
+    "imageLink": "https://drive.google.com/thumbnail?id=1gn-_WUqKpiY-6lDiq0bvzqAGphVQDi5S&sz=w1000"
+  },
+  {
+    "category": "Soil Health",
+    "isBiological": false,
+    "productName": "CALDIOM",
+    "solution": "Chemical Solutions",
+    "description": "Caldiom provides elite-level calcium nutrition through a concentrated formula that allows for higher input availability. Beyond mere nutrition, Calcium serves as a critical messenger within the plant, coordinating responses to stress and optimizing how nutrients are absorbed.",
+    "availabePacking": "2 kg",
+    "application": [
+      {
+        "stage": "First",
+        "details": "Early growth phase to prevent structural weaknesses."
+      },
+      {
+        "stage": "Second",
+        "details": "Peak reproductive or fruit development stage to maximize quality."
+      }
+    ],
+    "dosage": "2.5-4 kg/ acre, Broadcast.",
+    "crops": "Agrarian Caldiom is suitable for all crops such as Cereals, Sugarcane, Pulses, Oil seeds, Fruit, Vegetables, Plantation, Flower crops, Fiber crops, Tuber crops, Spices crops, Forest and Nursery etc.",
+    "benefits": [
+      "Advanced cell wall support",
+      "Regulatory master",
+      "Enhanced nutrient uptake",
+      "Superior harvest strength",
+      "High concentration formula"
+    ],
+    "imageLink": "https://drive.google.com/thumbnail?id=1axCHDcMgaoyjOwjmD2DyHZIInxe3FV7s&sz=w1000"
+  },
+  {
+    "category": "Plant Health",
+    "isBiological": true,
+    "productName": "BLOOMING",
+    "solution": "Biological Solutions",
+    "description": "Blooming delivers the essential organic potassium required for the most critical stages of a plant's life. By utilizing the natural potency of red algae, it provides a highly bio-available form of potash that traditional mineral fertilizers cannot match.",
+    "availabePacking": "100 Ml & 250 Ml",
+    "application": [
+      {
+        "stage": "First",
+        "details": "At the flower bud initiation stage."
+      },
+      {
+        "stage": "Second",
+        "details": "During the fruit setting or grain filling stage."
+      }
+    ],
+    "dosage": "2-3ml/L, foliar spray for fruits & vegetables | 1-2 ml/L, foliar spray for flowers & ornamental crops | 1-1.5 L/acre, for drip irrigation/ fertigation.",
+    "crops": "Suitable for all crops",
+    "benefits": [
+      "Enhanced flowering",
+      "Superior fruit quality",
+      "Improve stress resilience",
+      "Improved shelf life",
+      "Efficient nutrient loading"
+    ],
+    "imageLink": "https://drive.google.com/thumbnail?id=1rpxp3RJ09a6d3czOM2d3qhVftiwwGFkf&sz=w1000"
+  },
+  {
+    "category": "Plant Health",
+    "isBiological": false,
+    "productName": "HUMMID",
+    "solution": "Chemical Solutions",
+    "description": "Hummid is a premium soil conditioner featuring 98% water-soluble humic acid derived from high-quality Leonardite. Rapidly dissolves to boost nutrient uptake, stimulate massive root growth, and optimize soil structure. It's the ultimate partner for improving fertilizer efficiency and crop stress resistance, leading to stronger, healthier plants and premium yields.",
+    "availabePacking": "400 Gm",
+    "application": [
+      {
+        "stage": "First",
+        "details": "At the time of early vegetative stage/ shortly after transplanting."
+      },
+      {
+        "stage": "Second",
+        "details": "During the late vegetative growth phase/early fruiting stage."
+      }
+    ],
+    "dosage": "400gm/acre, Broadcast/ Drip irrigation, 2-3 times at 20-30 days of interval. | 0.3-0.5 gm/L, Foliar spray, 2-3 times at 20-30 days of interval.",
+    "crops": "Vegetables, Fruits, Field Crops, Ornamentals, Nurseries, Home Garden, Horticulture crop.",
+    "benefits": [
+      "Enhanced nutrient availability",
+      "Superior Root Development",
+      "Increased fertilizer efficiency",
+      "Improved water retention",
+      "Optimised soil health"
+    ],
+    "imageLink": "https://drive.google.com/thumbnail?id=1HOUhaVppHAx6_ah9oD4UY3L6xoJ4o3Ni&sz=w1000"
+  },
+  {
+    "category": "Plant Fertility",
+    "isBiological": false,
+    "productName": "CALBOM",
+    "solution": "Chemical Solutions",
+    "description": "Calbom provides elite structural support through its unique combination of Calcium, Boron, Manganese, and Zinc. It doesn't just help plants grow; it helps them grow stronger and produce better.",
+    "availabePacking": "100 Ml & 250 Ml",
+    "application": [
+      {
+        "stage": "First",
+        "details": "Early vegetative growth stage to build stem thickness."
+      },
+      {
+        "stage": "Second",
+        "details": "Pre-flowering to fruit development stage to improve fruit set and colour."
+      }
+    ],
+    "dosage": "Foliar Application- 250ml/ acre | Drip Irrigation- 500ml/acre",
+    "crops": "Calbom is suitable for all crops such as cereals, Pulses, Oil seeds, Fruit, Vegetables, Plantation and Fiber crops etc.",
+    "benefits": [
+      "Epidermis shield",
+      "Sugar transport pro",
+      "Visual excellence",
+      "Yield stability"
+    ],
+    "imageLink": "https://drive.google.com/thumbnail?id=1Ie_KbYhi-uS5JIMwj794olYMs3-o5evy&sz=w1000"
+  },
+  {
+    "category": "Plant Protection",
+    "isBiological": true,
+    "productName": "BEAUVER",
+    "solution": "Biological Solutions",
+    "description": "Beauver is a high-performance, entomopathogenic fungal formulation designed for growers seeking a powerful, eco-friendly alternative to synthetic pesticides. Leveraging the natural predatory power of beneficial fungi, Beauver provides broad-spectrum control against whitefly, aphid, thrips, grasshoppers and certain beetles, without leaving harmful residues.",
+    "availabePacking": "250 Gm, 500 Gm & 1 Kg",
+    "application": [
+      {
+        "stage": "First",
+        "details": "At the onset of pest infestation or during the early vegetative stage as a protective measure."
+      },
+      {
+        "stage": "Second",
+        "details": "Repeat 7-10 days later if pest pressure persists to ensure complete coverage of new growth."
+      }
+    ],
+    "dosage": "Soil application: 250gm/acre, Mix with 100 kg of FYM/compost & broadcast. | Foliar/Drip application: 500gm/acre, Repeat at 7-10 days intervals, if pest pressure persists. | Seed treatment: Mix 10-20 gm of Beauver with 50 ml of water & treat the 1 kg of seeds.",
+    "crops": "Paddy, Wheat, Maize, Pulses, Oil seeds, Cotton, Tomato, Chilly, Capsicum, Chilies, Cabbage, Cauliflower, Cucurbits, Beans, Pea, Cardamom, Apple, Grapes, Citrus, Mango, Guava, Papaya, Pomegranate, Cumin, Ginger, Tea and Plantation crops.",
+    "benefits": [
+      "Targeted pest control",
+      "Natural protection",
+      "Rapid integration",
+      "Enhanced plant safety",
+      "Environmentally Friendly"
+    ],
+    "imageLink": "https://drive.google.com/thumbnail?id=16UMn0aBAZ0zNVfj7RYLs_ljQ6SJnvs9y&sz=w1000"
+  },
+  {
+    "category": "Plant Protection",
+    "isBiological": false,
+    "productName": "EMAME",
+    "solution": "Chemical Solutions",
+    "description": "Emamectin Benzoate 5% SG is a water soluble granular formulation containing 5% active ingredient. It is a powerful insecticide with stomach action recommended for the control of bollworms, fruit & shoot borers, DBM, thrips, mites, and pod borers. Affected larvae become paralyzed and stop feeding shortly after exposure, subsequently dying within 2-4 days.",
+    "availabePacking": "50 Gm, 100 Gm, 250 Gm & 500 Gm",
+    "application": [
+      {
+        "stage": "First",
+        "details": "At the first observation of pest incidence (larval stage) for best results."
+      }
+    ],
+    "dosage": "80-100 grams per acre (Foliar spray) | 0.4-0.5 grams per liter of water for smaller applications.",
+    "crops": "Cotton, Okra, Cabbage, Chilli, Brinjal, Red gram, and Chickpea.",
+    "benefits": [
+      "Control of Bollworms and Fruit/Shoot borers",
+      "Effective against Diamondback Moth (DBM)",
+      "Targeted control of thrips, mites, and pod borers",
+      "Stomach action for effective larvae control",
+      "Rapid paralysis and death of target pests"
+    ],
+    "imageLink": "https://drive.google.com/thumbnail?id=1o7aaPE8GSwYUIawulcTJ5NnrcI3GBfxR&sz=w1000"
+  }
+]
