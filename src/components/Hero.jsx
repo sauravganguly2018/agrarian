@@ -5,7 +5,7 @@ import { ArrowRight } from 'lucide-react';
 const Hero = () => {
   return (
     <section id="home" className="relative flex items-center py-24 md:py-48 min-h-[80vh] lg:min-h-0">
-      {/* Background Image Setup */}
+      {/* Background Image Setup Done*/}
       <div className="absolute inset-0 z-0">
         <img
           src="/images/f82f7de733fd3f9b3af07beecec5716bcdf0ef22.png"
