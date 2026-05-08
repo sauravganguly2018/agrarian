@@ -10,7 +10,7 @@ const Hero = () => {
         <img
           src="/images/f82f7de733fd3f9b3af07beecec5716bcdf0ef22.png"
           alt="Agriculture Field Background"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover object-[65%_center] md:object-[70%_center] lg:object-[85%_center]"
         />
         {/* Dark Gradient Overlay to match image */}
         <div className="absolute inset-0 bg-black/40"></div>
@@ -20,7 +20,7 @@ const Hero = () => {
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 sm:px-10 lg:px-8 w-full">
         <div className="max-w-4xl text-left text-white">
-          <h1 className="inline-block text-[2.5rem] sm:text-5xl md:text-6xl lg:text-[5.25rem] font-bebas font-black leading-[1.1] lg:leading-[0.95] mb-8 md:mb-16 tracking-[0.02em] lg:tracking-[0.05em] animate-fade-in-up uppercase">
+          <h1 className="text-[3.2rem] sm:text-[4.2rem] md:text-[5.5rem] lg:text-[6.5rem] font-bebas font-black leading-[0.9] mb-8 md:mb-16 tracking-[0.05em] animate-fade-in-up uppercase">
             SUSTAINABLE<br />
             CROP <span className="text-[#ffb300]">SOLUTIONS</span><br />
             FOR A SAFER WORLD

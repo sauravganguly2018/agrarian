@@ -76,7 +76,7 @@ const GrowersStories = () => {
       <div className="w-full max-w-7xl px-4 sm:px-6 lg:px-8">
         
         <div className="mb-16">
-          <h2 className="inline-block text-4xl font-black text-[#1e1e1e] tracking-tight uppercase transform scale-y-[1.15] origin-left">
+          <h2 className="text-[2.5rem] sm:text-[3rem] md:text-[3.5rem] lg:text-[4rem] font-bebas font-black text-[#1e1e1e] leading-[0.9] tracking-[0.05em] uppercase">
             GROWERS <span className="text-[#76b947]">STORIES</span>
           </h2>
         </div>

@@ -21,11 +21,21 @@ export default {
       },
       animation: {
         'fade-in-up': 'fadeInUp 0.8s ease-out forwards',
+        'marquee': 'marquee 25s linear infinite',
+        'gradient-x': 'gradient-x 8s linear infinite',
       },
       keyframes: {
         fadeInUp: {
           '0%': { opacity: '0', transform: 'translateY(20px)' },
           '100%': { opacity: '1', transform: 'translateY(0)' },
+        },
+        marquee: {
+          '0%': { transform: 'translateX(0%)' },
+          '100%': { transform: 'translateX(-50%)' },
+        },
+        'gradient-x': {
+          '0%': { 'background-position': '0% 0%' },
+          '100%': { 'background-position': '200% 0%' },
         }
       }
     },

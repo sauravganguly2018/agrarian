@@ -39,7 +39,7 @@ const ProductDetails = () => {
   }
 
   return (
-    <main className="flex-grow pt-28 pb-0 animate-fade-in-up bg-white">
+    <main className="flex-grow pt-20 pb-0 animate-fade-in-up bg-white">
       
       {/* Product Detail Section */}
       <div className="w-full py-10 md:py-14 px-4 sm:px-6 lg:px-8">
@@ -123,12 +123,16 @@ const ProductDetails = () => {
       <section className="bg-[#0a1f14] w-full py-24 px-4 sm:px-6 lg:px-8 overflow-hidden relative">
         <div className="max-w-7xl mx-auto relative z-10">
           
-          <h2 className="text-5xl md:text-6xl font-black text-white tracking-tighter uppercase mb-16">
+          <h2 className="text-[2.5rem] sm:text-[3rem] md:text-[3.5rem] lg:text-[4rem] font-bebas font-black text-white tracking-[0.05em] leading-[0.9] uppercase mb-16">
             KEY <span className="text-[#76b947]">BENEFITS</span>
           </h2>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
-            {product.benefits.map((benefit, idx) => (
+          <div className={`grid grid-cols-1 ${
+            product.benefits.length === 1 ? '' : 
+            product.benefits.length === 2 ? 'sm:grid-cols-2' : 
+            `sm:grid-cols-2 lg:grid-cols-${Math.min(product.benefits.length, 4)}`
+          } gap-4 md:gap-6`}>
+            {product.benefits.slice(0, 4).map((benefit, idx) => (
               <div 
                 key={idx} 
                 className="bg-[#153124] rounded-3xl p-8 flex flex-col hover:bg-[#1c3f2e] transition-all duration-300 group"
@@ -151,7 +155,7 @@ const ProductDetails = () => {
       <section className="bg-white w-full pt-48 pb-24 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           
-          <h2 className="text-5xl md:text-6xl font-black text-[#1e4a36] tracking-tighter uppercase mb-16 text-left">
+          <h2 className="text-[2.5rem] sm:text-[3rem] md:text-[3.5rem] lg:text-[4rem] font-bebas font-black text-[#1e4a36] tracking-[0.05em] leading-[0.9] uppercase mb-16 text-left">
             RELATED <span className="text-[#76b947]">PRODUCTS</span>
           </h2>
 

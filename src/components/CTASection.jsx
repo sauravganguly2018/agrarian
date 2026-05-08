@@ -17,8 +17,8 @@ const CTASection = () => {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20 text-center">
-        <h2 className="inline-block text-4xl md:text-6xl font-black mb-8 tracking-tight text-white uppercase transform scale-y-[1.15]">
-          READY TO <span className="text-[#ffb300]">GO WITH NATURE?</span>
+        <h2 className="inline-block text-[2.5rem] sm:text-[3rem] md:text-[3.5rem] lg:text-[4rem] font-bebas font-black mb-8 leading-[0.9] tracking-[0.05em] text-white uppercase">
+          READY TO <span className="text-[#76b947]">GO WITH NATURE?</span>
         </h2>
 
         <p className="text-white text-lg md:text-xl leading-relaxed mb-12 max-w-3xl mx-auto font-medium opacity-90">

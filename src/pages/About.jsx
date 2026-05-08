@@ -25,7 +25,7 @@ const About = () => {
           <div className="absolute inset-0 bg-black/40" />
         </div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full pb-12 md:pb-16">
-          <h1 className="text-4xl md:text-6xl font-black text-white tracking-tighter uppercase leading-none">
+          <h1 className="text-[2.5rem] sm:text-[3rem] md:text-[3.5rem] lg:text-[4rem] font-bebas font-black text-white tracking-[0.05em] uppercase leading-[0.9]">
             ABOUT <span className="text-[#76b947]">US</span>
           </h1>
         </div>
@@ -79,7 +79,7 @@ const About = () => {
 
           {/* Overlapping Card - Positioned relative on mobile, absolute on desktop */}
           <div className="relative lg:absolute lg:top-1/2 lg:-translate-y-1/2 lg:left-[15%] w-[92%] sm:w-[85%] md:w-[70%] lg:w-[600px] bg-white p-8 md:p-16 lg:p-20 shadow-2xl z-30 -mt-20 mb-20 lg:my-0 mx-auto lg:mx-0">
-            <h2 className="text-3xl md:text-5xl font-black tracking-tighter mb-8 md:mb-10 uppercase leading-none lg:whitespace-nowrap">
+            <h2 className="text-[2.5rem] sm:text-[3rem] md:text-[3.5rem] lg:text-[4rem] font-bebas font-black tracking-[0.05em] mb-8 md:mb-10 uppercase leading-[0.9] lg:whitespace-nowrap">
               OUR CORE <span className="text-[#76b947]">VALUE</span>
             </h2>
 
@@ -105,7 +105,7 @@ const About = () => {
       <section className="bg-white py-24 md:py-32 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
 
-          <h2 className="text-4xl md:text-6xl font-black tracking-tighter mb-16 uppercase leading-none">
+          <h2 className="text-[2.5rem] sm:text-[3rem] md:text-[3.5rem] lg:text-[4rem] font-bebas font-black tracking-[0.05em] mb-16 uppercase leading-[0.9]">
             OUR <span className="text-[#76b947]">VISION</span>
           </h2>
 

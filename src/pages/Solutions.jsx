@@ -46,8 +46,8 @@ const Solutions = () => {
           <div className="absolute inset-0 bg-black/40" />
         </div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full pb-12 md:pb-16">
-          <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white tracking-tight uppercase leading-none">
-            Explore Our <span className="text-[#ffc107]">Solutions</span>
+          <h1 className="text-[2.5rem] sm:text-[3rem] md:text-[3.5rem] lg:text-[4rem] font-bebas font-black text-white tracking-[0.05em] uppercase leading-[0.9]">
+            Explore Our <span className="text-[#76b947]">Solutions</span>
           </h1>
         </div>
       </section>

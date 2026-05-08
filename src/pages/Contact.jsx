@@ -78,7 +78,7 @@ const Contact = () => {
           <div className="absolute inset-0 bg-black/30" />
         </div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full pb-12 md:pb-16">
-          <h1 className="text-4xl md:text-6xl font-black text-white tracking-tighter uppercase leading-none">
+          <h1 className="text-[2.5rem] sm:text-[3rem] md:text-[3.5rem] lg:text-[4rem] font-bebas font-black text-white tracking-[0.05em] uppercase leading-[0.9]">
             BECOME A <span className="text-[#76b947]">PARTNER</span>
           </h1>
         </div>

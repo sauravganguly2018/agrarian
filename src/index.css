@@ -19,6 +19,16 @@
   animation: marquee 30s linear infinite;
 }
 
+@keyframes gradient-x {
+  0% { background-position: 0% 0%; }
+  100% { background-position: 200% 0%; }
+}
+
+.animate-gradient-x {
+  background-size: 200% auto !important;
+  animation: gradient-x 8s linear infinite !important;
+}
+
 body {
   font-family: 'Inter', sans-serif;
   @apply text-gray-800 bg-gray-50;
