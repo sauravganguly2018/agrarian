@@ -13,10 +13,10 @@ const Footer = () => {
       ></div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col md:grid md:grid-cols-2 lg:flex lg:flex-row lg:justify-between gap-12 lg:gap-20 mb-20">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-20 mb-20">
 
           {/* Brand Column */}
-          <div className="max-w-xs w-full lg:w-auto">
+          <div className="col-span-2 lg:col-span-1 max-w-xs w-full lg:w-auto">
             <div className="mb-8">
               <img src="/images/Isolation_Mode.svg" alt="Agrarian Logo" className="h-16 w-auto" />
             </div>

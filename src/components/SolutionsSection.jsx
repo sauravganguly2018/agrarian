@@ -35,12 +35,12 @@ const SolutionsSection = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           {solutions.map((item, index) => (
-            <div key={index} className="bg-[#f4f5f4] border border-gray-200 rounded-[2rem] overflow-hidden group hover:shadow-xl transition-all duration-500">
-              <div className="h-[260px] overflow-hidden">
+            <div key={index} className="bg-white border border-gray-200 rounded-[2.5rem] overflow-hidden group hover:shadow-xl transition-all duration-500 flex flex-col">
+              <div className="h-64 sm:h-72 w-full overflow-hidden">
                 <img 
                   src={item.image} 
                   alt={item.title} 
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" 
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
                 />
               </div>
               <div className="p-10 relative min-h-[260px]">

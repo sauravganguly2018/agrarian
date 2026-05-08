@@ -103,11 +103,11 @@ const GrowersStories = () => {
                 <div key={story.id} className="w-full flex-shrink-0 flex flex-col lg:flex-row bg-white">
                   
                   {/* Image side */}
-                  <div className="lg:w-1/2 h-72 lg:h-[450px] relative">
+                  <div className="lg:w-1/2 h-64 sm:h-72 lg:h-[450px] relative w-full overflow-hidden">
                     <img 
                       src={story.image} 
                       alt={story.name} 
-                      className="w-full h-full object-cover select-none pointer-events-none"
+                      className="w-full h-full object-cover select-none pointer-events-none transition-transform duration-700"
                     />
                   </div>
                   

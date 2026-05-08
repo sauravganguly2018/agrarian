@@ -17,9 +17,9 @@ const About = () => {
       {/* Hero Banner */}
       <section className="relative h-[400px] md:h-[500px] flex items-end overflow-hidden">
         <div className="absolute inset-0">
-          <img 
-            src="/images/4e24c10b424f60dc63a56cf3c11822c519440fcf.jpg" 
-            alt="About Us Banner" 
+          <img
+            src="/images/4e24c10b424f60dc63a56cf3c11822c519440fcf.jpg"
+            alt="About Us Banner"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-black/40" />
@@ -31,12 +31,12 @@ const About = () => {
         </div>
       </section>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32 md:py-48">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Who We Are Section - Matched Height Layout */}
-        <section className="mb-48">
+        <section className="py-40 md:py-56">
           <div className="flex flex-col lg:flex-row lg:items-stretch gap-20 lg:gap-32">
-            
+
             {/* Left Content (Narrower) */}
             <div className="w-full lg:w-[45%] flex flex-col justify-center">
               <p className="text-lg md:text-[1.5rem] text-[#1e4a36] leading-[1.4] font-normal font-['Neue_Montreal',_sans-serif]">
@@ -44,12 +44,12 @@ const About = () => {
               </p>
             </div>
 
-            {/* Right Image Area (Matched Height) */}
+            {/* Right Image Area (Matched Height on Desktop, Fixed on Mobile) */}
             <div className="w-full lg:w-[35%]">
-              <div className="h-full min-h-[300px] bg-gray-100 rounded-3xl overflow-hidden relative group shadow-2xl">
-                <img 
-                  src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80&w=800" 
-                  alt="Agricultural field" 
+              <div className="h-[400px] md:h-[500px] lg:h-full bg-gray-100 rounded-3xl overflow-hidden relative group shadow-2xl">
+                <img
+                  src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80&w=800"
+                  alt="Agricultural field"
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-black/5 group-hover:bg-transparent transition-colors duration-300" />
@@ -64,22 +64,22 @@ const About = () => {
       {/* Core Values Section - Overlapping Design */}
       <section className="relative w-full overflow-hidden bg-[#0a1f14]">
         <div className="flex flex-col lg:flex-row min-h-[600px] lg:min-h-[850px] relative">
-          
+
           {/* Left Dark Sidebar Area (Decorative) */}
           <div className="hidden lg:block lg:w-[28%] bg-[#0a1f14] z-10"></div>
 
           {/* Main Background Image Area */}
           <div className="relative w-full lg:w-[72%] h-[500px] md:h-[600px] lg:h-auto z-0">
-            <img 
-              src="/images/21263f7b9fbbf3324e17d5a973246d44891e8197.jpg" 
-              alt="Core Values Background" 
+            <img
+              src="/images/21263f7b9fbbf3324e17d5a973246d44891e8197.jpg"
+              alt="Core Values Background"
               className="w-full h-full object-cover"
             />
           </div>
 
           {/* Overlapping Card - Positioned relative on mobile, absolute on desktop */}
-          <div className="relative lg:absolute lg:top-1/2 lg:-translate-y-1/2 lg:left-[15%] w-[92%] mx-auto lg:mx-0 sm:w-[80%] md:w-[60%] lg:w-[600px] bg-white p-10 md:p-16 lg:p-20 shadow-2xl z-30 mt-[-50px] lg:mt-0">
-            <h2 className="text-3xl md:text-5xl font-black tracking-tighter mb-10 uppercase leading-none lg:whitespace-nowrap">
+          <div className="relative lg:absolute lg:top-1/2 lg:-translate-y-1/2 lg:left-[15%] w-[92%] sm:w-[85%] md:w-[70%] lg:w-[600px] bg-white p-8 md:p-16 lg:p-20 shadow-2xl z-30 -mt-20 mb-20 lg:my-0 mx-auto lg:mx-0">
+            <h2 className="text-3xl md:text-5xl font-black tracking-tighter mb-8 md:mb-10 uppercase leading-none lg:whitespace-nowrap">
               OUR CORE <span className="text-[#76b947]">VALUE</span>
             </h2>
 
@@ -88,7 +88,7 @@ const About = () => {
                 <div key={idx} className="flex items-center gap-4 group">
                   <div className="flex-shrink-0 text-[#76b947]">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="transform group-hover:scale-125 transition-transform">
-                      <path d="M20 6L9 17L4 12" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+                      <path d="M20 6L9 17L4 12" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                   </div>
                   <span className="text-xl md:text-2xl font-bold text-gray-800 tracking-tight">
@@ -104,7 +104,7 @@ const About = () => {
       {/* Our Vision Section */}
       <section className="bg-white py-24 md:py-32 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
-          
+
           <h2 className="text-4xl md:text-6xl font-black tracking-tighter mb-16 uppercase leading-none">
             OUR <span className="text-[#76b947]">VISION</span>
           </h2>
