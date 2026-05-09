@@ -2,6 +2,7 @@ import React, { useEffect, useMemo } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import { ArrowLeft, Bug, FlaskConical, ArrowUpRight, TrendingUp } from 'lucide-react';
 import productsData from '../data/products.json';
+import ProductImage from '../components/ProductImage';
 
 const ProductDetails = () => {
   const { name } = useParams();
@@ -12,12 +13,12 @@ const ProductDetails = () => {
     return productsData.find(p => p.productName.toLowerCase().replace(/\s+/g, '-') === name);
   }, [name]);
 
-  // Get 3 related products (fixed but distinct from current)
+  // Get related products from the pre-calculated field in JSON
   const relatedProducts = useMemo(() => {
-    if (!product) return [];
-    return productsData
-      .filter(p => p.productName !== product.productName)
-      .slice(0, 3);
+    if (!product || !product.relatedProducts) return [];
+    return product.relatedProducts
+      .map(name => productsData.find(p => p.productName === name))
+      .filter(Boolean); // Ensure we don't have undefined entries
   }, [product]);
 
   useEffect(() => {
@@ -56,15 +57,12 @@ const ProductDetails = () => {
           <div className="flex flex-col lg:flex-row gap-10 lg:gap-14 items-center">
             
             {/* Left Image Side */}
-            <div className="w-full lg:w-[40%] flex justify-center items-center">
-              <div className="relative group">
-                <img 
-                  src={product.imageLink} 
-                  alt={product.productName} 
-                  className="max-w-full h-auto object-contain max-h-[450px] drop-shadow-2xl mix-blend-multiply transform transition-transform duration-500 group-hover:scale-105" 
-                />
-              </div>
-            </div>
+            <ProductImage 
+              src={product.imageLink} 
+              alt={product.productName} 
+              className="max-w-full h-auto object-contain max-h-[450px] drop-shadow-2xl mix-blend-multiply transform transition-transform duration-500 group-hover:scale-105"
+              containerClassName="w-full lg:w-[40%] flex justify-center items-center group"
+            />
 
             {/* Right Details Card */}
             <div className="w-full lg:w-[60%] bg-white rounded-[2rem] p-6 md:p-10 shadow-[0_20px_50px_rgba(0,0,0,0.05)] border border-gray-50">
@@ -174,13 +172,12 @@ const ProductDetails = () => {
                   </span>
                 </div>
 
-                <div className="h-64 w-full flex items-center justify-center mb-8">
-                  <img 
-                    src={p.imageLink} 
-                    alt={p.productName} 
-                    className="max-h-full object-contain mix-blend-multiply transform transition-transform duration-500 group-hover:scale-110"
-                  />
-                </div>
+                <ProductImage 
+                  src={p.imageLink} 
+                  alt={p.productName} 
+                  className="max-h-full object-contain mix-blend-multiply transform transition-transform duration-500 group-hover:scale-110"
+                  containerClassName="h-64 w-full flex items-center justify-center mb-8"
+                />
 
                 <div className="text-left w-full">
                   <h3 className="text-3xl font-black text-gray-900 mb-1">{p.productName}</h3>

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { ArrowUpRight, FlaskConical, Bug } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 import productsData from '../data/products.json';
+import ProductImage from '../components/ProductImage';
 
 const Solutions = () => {
   const location = useLocation();
@@ -123,13 +124,12 @@ const Solutions = () => {
               </div>
 
               {/* Product Image */}
-              <div className="h-56 w-full flex items-center justify-center mb-8">
-                <img 
-                  src={product.imageLink} 
-                  alt={product.productName} 
-                  className="max-h-full object-contain mix-blend-multiply"
-                />
-              </div>
+              <ProductImage 
+                src={product.imageLink} 
+                alt={product.productName} 
+                className="max-h-full object-contain mix-blend-multiply"
+                containerClassName="h-56 w-full flex items-center justify-center mb-8"
+              />
 
               {/* Product Info */}
               <div className="w-full mt-auto">
