@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { ArrowUpRight, FlaskConical, Bug } from 'lucide-react';
+import { ArrowUpRight, FlaskConical, Bug, Search, X } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 import productsData from '../data/products.json';
 import ProductImage from '../components/ProductImage';
@@ -11,6 +11,7 @@ const Solutions = () => {
   
   const [activeSolution, setActiveSolution] = useState('All');
   const [activeType, setActiveType] = useState('All');
+  const [searchQuery, setSearchQuery] = useState('');
 
   useEffect(() => {
     document.title = "Our Solutions | Agrarian";
@@ -31,7 +32,8 @@ const Solutions = () => {
     const matchesType = activeType === 'All' || 
       (activeType === 'Biological' && product.isBiological) || 
       (activeType === 'Chemical' && !product.isBiological);
-    return matchesSolution && matchesType;
+    const matchesSearch = product.productName.toLowerCase().includes(searchQuery.toLowerCase());
+    return matchesSolution && matchesType && matchesSearch;
   });
 
   return (
@@ -55,8 +57,31 @@ const Solutions = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         
-        {/* Filters Top Bar */}
-        <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-6 mb-12">
+        {/* Search and Filters Bar */}
+        <div className="mb-12 space-y-6">
+          {/* Search Bar */}
+          <div className="relative max-w-2xl">
+            <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+              <Search className="h-5 w-5 text-gray-400" />
+            </div>
+            <input
+              type="text"
+              placeholder="Search products by name..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className="block w-full pl-11 pr-12 py-4 border border-gray-200 rounded-[2rem] leading-5 bg-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#76b947] focus:border-transparent transition-all shadow-sm text-lg"
+            />
+            {searchQuery && (
+              <button 
+                onClick={() => setSearchQuery('')}
+                className="absolute inset-y-0 right-0 pr-4 flex items-center"
+              >
+                <X className="h-5 w-5 text-gray-400 hover:text-gray-600 transition-colors" />
+              </button>
+            )}
+          </div>
+
+          <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-6">
           
           {/* Solution Filters */}
           <div className="flex flex-wrap gap-3">
@@ -96,6 +121,7 @@ const Solutions = () => {
             ))}
           </div>
         </div>
+      </div>
 
         {/* Count Label */}
         <div className="mb-6" aria-live="polite">

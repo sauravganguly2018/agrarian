@@ -6,6 +6,13 @@
   .glass {
     @apply bg-white bg-opacity-20 backdrop-blur-lg border border-white border-opacity-30 shadow-lg;
   }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
 }
 
 @keyframes marquee {

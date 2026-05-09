@@ -7,6 +7,9 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Solutions from './pages/Solutions';
 import ProductDetails from './pages/ProductDetails';
+import Gallery from './pages/Gallery';
+import News from './pages/News';
+import Sustainability from './pages/Sustainability';
 import ScrollToTop from './components/ScrollToTop';
 
 function App() {
@@ -18,6 +21,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/news" element={<News />} />
+          <Route path="/sustainability" element={<Sustainability />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/solutions" element={<Solutions />} />
           <Route path="/product/:name" element={<ProductDetails />} />

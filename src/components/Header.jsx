@@ -17,6 +17,9 @@ const Header = () => {
 
   const isHome = location.pathname === '/';
   const isAbout = location.pathname.startsWith('/about');
+  const isSustainability = location.pathname.startsWith('/sustainability');
+  const isGallery = location.pathname.startsWith('/gallery');
+  const isNews = location.pathname.startsWith('/news');
   const isSolutions = location.pathname.startsWith('/solutions');
   const isContact = location.pathname.startsWith('/contact');
 
@@ -69,6 +72,39 @@ const Header = () => {
                 }`}
               >
                 About Us
+              </Link>
+
+              <Link 
+                to="/sustainability" 
+                className={`px-6 py-2 rounded-full text-[15px] font-bold transition-all ${
+                  scrolled 
+                    ? (isSustainability ? 'bg-white text-[#0a1f14]' : 'text-white hover:text-[#76b947]')
+                    : (isSustainability ? 'bg-[#214d3e] text-white shadow-md' : 'text-gray-800 hover:text-agrarian-green')
+                }`}
+              >
+                Sustainability
+              </Link>
+
+              <Link 
+                to="/gallery" 
+                className={`px-6 py-2 rounded-full text-[15px] font-bold transition-all ${
+                  scrolled 
+                    ? (isGallery ? 'bg-white text-[#0a1f14]' : 'text-white hover:text-[#76b947]')
+                    : (isGallery ? 'bg-[#214d3e] text-white shadow-md' : 'text-gray-800 hover:text-agrarian-green')
+                }`}
+              >
+                Gallery
+              </Link>
+
+              <Link 
+                to="/news" 
+                className={`px-6 py-2 rounded-full text-[15px] font-bold transition-all ${
+                  scrolled 
+                    ? (isNews ? 'bg-white text-[#0a1f14]' : 'text-white hover:text-[#76b947]')
+                    : (isNews ? 'bg-[#214d3e] text-white shadow-md' : 'text-gray-800 hover:text-agrarian-green')
+                }`}
+              >
+                News
               </Link>
  
               <Link 
@@ -124,6 +160,30 @@ const Header = () => {
               className={`block px-4 py-3 rounded-xl font-bold transition-all ${isAbout ? 'bg-[#214d3e] text-white' : 'text-gray-700 hover:bg-gray-50'}`}
             >
               About Us
+            </Link>
+
+            <Link 
+              to="/sustainability" 
+              onClick={() => setIsOpen(false)} 
+              className={`block px-4 py-3 rounded-xl font-bold transition-all ${isSustainability ? 'bg-[#214d3e] text-white' : 'text-gray-700 hover:bg-gray-50'}`}
+            >
+              Sustainability
+            </Link>
+
+            <Link 
+              to="/gallery" 
+              onClick={() => setIsOpen(false)} 
+              className={`block px-4 py-3 rounded-xl font-bold transition-all ${isGallery ? 'bg-[#214d3e] text-white' : 'text-gray-700 hover:bg-gray-50'}`}
+            >
+              Gallery
+            </Link>
+
+            <Link 
+              to="/news" 
+              onClick={() => setIsOpen(false)} 
+              className={`block px-4 py-3 rounded-xl font-bold transition-all ${isNews ? 'bg-[#214d3e] text-white' : 'text-gray-700 hover:bg-gray-50'}`}
+            >
+              News
             </Link>
 
             <Link 

@@ -5,9 +5,12 @@ import productsData from '../data/products.json';
 import ProductImage from './ProductImage';
 
 const Products = () => {
-  // Take 3 products for the home page
+  // Take a diverse mix of 3 products for the home page
   const homeProducts = useMemo(() => {
-    return productsData.slice(0, 3);
+    const selectedNames = ['BLOOMING', 'SIXXEER', 'FILAMENT GOLD'];
+    const selected = productsData.filter(p => selectedNames.includes(p.productName.toUpperCase()));
+    // If not found or less than 3, fallback to first 3
+    return selected.length >= 3 ? selected : productsData.slice(0, 3);
   }, []);
 
   return (

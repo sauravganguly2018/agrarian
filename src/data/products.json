@@ -34,199 +34,6 @@
   },
   {
     "category": "Soil Health",
-    "isBiological": false,
-    "productName": "CALDIOM",
-    "solution": "Chemical Solutions",
-    "description": "Caldiom provides elite-level calcium nutrition through a concentrated formula that allows for higher input availability. Beyond mere nutrition, Calcium serves as a critical messenger within the plant, coordinating responses to stress and optimizing how nutrients are absorbed.",
-    "availabePacking": "2 kg",
-    "application": [
-      {
-        "stage": "First",
-        "details": "Early growth phase to prevent structural weaknesses."
-      },
-      {
-        "stage": "Second",
-        "details": "Peak reproductive or fruit development stage to maximize quality."
-      }
-    ],
-    "dosage": "2.5-4 kg/ acre, Broadcast.",
-    "crops": "Agrarian Caldiom is suitable for all crops such as Cereals, Sugarcane, Pulses, Oil seeds, Fruit, Vegetables, Plantation, Flower crops, Fiber crops, Tuber crops, Spices crops, Forest and Nursery etc.",
-    "benefits": [
-      "Advanced cell wall support",
-      "Regulatory master",
-      "Enhanced nutrient uptake",
-      "Superior harvest strength",
-      "High concentration formula"
-    ],
-    "imageLink": "/images/products/CALDIOM.png",
-    "relatedProducts": [
-      "DHAMAAL",
-      "FILAMENT",
-      "FILAMENT GOLD"
-    ]
-  },
-  {
-    "category": "Plant Health",
-    "isBiological": true,
-    "productName": "BLOOMING",
-    "solution": "Biological Solutions",
-    "description": "Blooming delivers the essential organic potassium required for the most critical stages of a plant's life. By utilizing the natural potency of red algae, it provides a highly bio-available form of potash that traditional mineral fertilizers cannot match.",
-    "availabePacking": "100 Ml & 250 Ml",
-    "application": [
-      {
-        "stage": "First",
-        "details": "At the flower bud initiation stage."
-      },
-      {
-        "stage": "Second",
-        "details": "During the fruit setting or grain filling stage."
-      }
-    ],
-    "dosage": "2-3ml/L, foliar spray for fruits & vegetables | 1-2 ml/L, foliar spray for flowers & ornamental crops | 1-1.5 L/acre, for drip irrigation/ fertigation.",
-    "crops": "Suitable for all crops",
-    "benefits": [
-      "Enhanced flowering",
-      "Superior fruit quality",
-      "Improve stress resilience",
-      "Improved shelf life",
-      "Efficient nutrient loading"
-    ],
-    "imageLink": "/images/products/BLOOMING.png",
-    "relatedProducts": [
-      "BRIX AC 24",
-      "Flourra",
-      "NUTROCARE"
-    ]
-  },
-  {
-    "category": "Plant Health",
-    "isBiological": false,
-    "productName": "HUMMID",
-    "solution": "Chemical Solutions",
-    "description": "Hummid is a premium soil conditioner featuring 98% water-soluble humic acid derived from high-quality Leonardite. Rapidly dissolves to boost nutrient uptake, stimulate massive root growth, and optimize soil structure. It's the ultimate partner for improving fertilizer efficiency and crop stress resistance, leading to stronger, healthier plants and premium yields.",
-    "availabePacking": "400 Gm",
-    "application": [
-      {
-        "stage": "First",
-        "details": "At the time of early vegetative stage/ shortly after transplanting."
-      },
-      {
-        "stage": "Second",
-        "details": "During the late vegetative growth phase/early fruiting stage."
-      }
-    ],
-    "dosage": "400gm/acre, Broadcast/ Drip irrigation, 2-3 times at 20-30 days of interval. | 0.3-0.5 gm/L, Foliar spray, 2-3 times at 20-30 days of interval.",
-    "crops": "Vegetables, Fruits, Field Crops, Ornamentals, Nurseries, Home Garden, Horticulture crop.",
-    "benefits": [
-      "Enhanced nutrient availability",
-      "Superior Root Development",
-      "Increased fertilizer efficiency",
-      "Improved water retention",
-      "Optimised soil health"
-    ],
-    "imageLink": "/images/products/Hummid.png",
-    "relatedProducts": [
-      "ShootRoot",
-      "UPTAKE CEC",
-      "WAXY DC"
-    ]
-  },
-  {
-    "category": "Plant Fertility",
-    "isBiological": false,
-    "productName": "CALBOM",
-    "solution": "Chemical Solutions",
-    "description": "Calbom provides elite structural support through its unique combination of Calcium, Boron, Manganese, and Zinc. It doesn't just help plants grow; it helps them grow stronger and produce better.",
-    "availabePacking": "100 Ml & 250 Ml",
-    "application": [
-      {
-        "stage": "First",
-        "details": "Early vegetative growth stage to build stem thickness."
-      },
-      {
-        "stage": "Second",
-        "details": "Pre-flowering to fruit development stage to improve fruit set and colour."
-      }
-    ],
-    "dosage": "Foliar Application- 250ml/ acre | Drip Irrigation- 500ml/acre",
-    "crops": "Calbom is suitable for all crops such as cereals, Pulses, Oil seeds, Fruit, Vegetables, Plantation and Fiber crops etc.",
-    "benefits": [
-      "Epidermis shield",
-      "Sugar transport pro",
-      "Visual excellence",
-      "Yield stability"
-    ],
-    "imageLink": "/images/products/Calbom.png",
-    "relatedProducts": [
-      "CACOLIQ",
-      "CRYSTAL",
-      "FOLIARFERT - FLUX Boron 20%"
-    ]
-  },
-  {
-    "category": "Plant Protection",
-    "isBiological": true,
-    "productName": "BEAUVER",
-    "solution": "Biological Solutions",
-    "description": "Beauver is a high-performance, entomopathogenic fungal formulation designed for growers seeking a powerful, eco-friendly alternative to synthetic pesticides. Leveraging the natural predatory power of beneficial fungi, Beauver provides broad-spectrum control against whitefly, aphid, thrips, grasshoppers and certain beetles, without leaving harmful residues.",
-    "availabePacking": "250 Gm, 500 Gm & 1 Kg",
-    "application": [
-      {
-        "stage": "First",
-        "details": "At the onset of pest infestation or during the early vegetative stage as a protective measure."
-      },
-      {
-        "stage": "Second",
-        "details": "Repeat 7-10 days later if pest pressure persists to ensure complete coverage of new growth."
-      }
-    ],
-    "dosage": "Soil application: 250gm/acre, Mix with 100 kg of FYM/compost & broadcast. | Foliar/Drip application: 500gm/acre, Repeat at 7-10 days intervals, if pest pressure persists. | Seed treatment: Mix 10-20 gm of Beauver with 50 ml of water & treat the 1 kg of seeds.",
-    "crops": "Paddy, Wheat, Maize, Pulses, Oil seeds, Cotton, Tomato, Chilly, Capsicum, Chilies, Cabbage, Cauliflower, Cucurbits, Beans, Pea, Cardamom, Apple, Grapes, Citrus, Mango, Guava, Papaya, Pomegranate, Cumin, Ginger, Tea and Plantation crops.",
-    "benefits": [
-      "Targeted pest control",
-      "Natural protection",
-      "Rapid integration",
-      "Enhanced plant safety",
-      "Environmentally Friendly"
-    ],
-    "imageLink": "/images/products/Beauver.png",
-    "relatedProducts": [
-      "BRAVO",
-      "BROADCAST",
-      "CKINNGG"
-    ]
-  },
-  {
-    "category": "Plant Protection",
-    "isBiological": false,
-    "productName": "EMAME",
-    "solution": "Chemical Solutions",
-    "description": "Emamectin Benzoate 5% SG is a water soluble granular formulation containing 5% active ingredient. It is a powerful insecticide with stomach action recommended for the control of bollworms, fruit & shoot borers, DBM, thrips, mites, and pod borers. Affected larvae become paralyzed and stop feeding shortly after exposure, subsequently dying within 2-4 days.",
-    "availabePacking": "50 Gm, 100 Gm, 250 Gm & 500 Gm",
-    "application": [
-      {
-        "stage": "First",
-        "details": "At the first observation of pest incidence (larval stage) for best results."
-      }
-    ],
-    "dosage": "80-100 grams per acre (Foliar spray) | 0.4-0.5 grams per liter of water for smaller applications.",
-    "crops": "Cotton, Okra, Cabbage, Chilli, Brinjal, Red gram, and Chickpea.",
-    "benefits": [
-      "Control of Bollworms and Fruit/Shoot borers",
-      "Effective against Diamondback Moth (DBM)",
-      "Targeted control of thrips, mites, and pod borers",
-      "Stomach action for effective larvae control",
-      "Rapid paralysis and death of target pests"
-    ],
-    "imageLink": "/images/products/Emame.png",
-    "relatedProducts": [
-      "CYPER",
-      "HOPPER",
-      "PROFFEN"
-    ]
-  },
-  {
-    "category": "Soil Health",
     "isBiological": true,
     "productName": "ESENCIAL",
     "solution": "Biological Solutions",
@@ -451,99 +258,36 @@
     ]
   },
   {
-    "category": "Soil Health",
-    "isBiological": false,
-    "productName": "DHAMAAL",
-    "solution": "Chemical Solutions",
-    "description": "A premium granular soil conditioner, powered by a balanced matrix of organic matter and essential minerals. It is engineered to structurally improve the soil, enhance water and nutrient use efficiency, and provide a stable, nutrient-rich environment for robust plant development.",
-    "availabePacking": "2 kg",
+    "category": "Plant Health",
+    "isBiological": true,
+    "productName": "BLOOMING",
+    "solution": "Biological Solutions",
+    "description": "Blooming delivers the essential organic potassium required for the most critical stages of a plant's life. By utilizing the natural potency of red algae, it provides a highly bio-available form of potash that traditional mineral fertilizers cannot match.",
+    "availabePacking": "100 Ml & 250 Ml",
     "application": [
       {
         "stage": "First",
-        "details": "At the time of field preparation or before planting."
+        "details": "At the flower bud initiation stage."
       },
       {
         "stage": "Second",
-        "details": "After 40-60 days of sowing/ transplanting."
+        "details": "During the fruit setting or grain filling stage."
       }
     ],
-    "dosage": "2-4 kg /acre",
-    "crops": "Paddy, Cotton, Chilly, Sugarcane, Banana, Fruit crops, and vegetable crops.",
+    "dosage": "2-3ml/L, foliar spray for fruits & vegetables | 1-2 ml/L, foliar spray for flowers & ornamental crops | 1-1.5 L/acre, for drip irrigation/ fertigation.",
+    "crops": "Suitable for all crops",
     "benefits": [
-      "Optimized soil health and structure",
-      "Increased water retention capacity",
-      "Improved nutrient use efficiency",
-      "Stronger root development"
+      "Enhanced flowering",
+      "Superior fruit quality",
+      "Improve stress resilience",
+      "Improved shelf life",
+      "Efficient nutrient loading"
     ],
-    "imageLink": "/images/products/DHAMAAL.png",
+    "imageLink": "/images/products/BLOOMING.png",
     "relatedProducts": [
-      "CALDIOM",
-      "FILAMENT",
-      "FILAMENT GOLD"
-    ]
-  },
-  {
-    "category": "Soil Health",
-    "isBiological": false,
-    "productName": "FILAMENT",
-    "solution": "Chemical Solutions",
-    "description": "Filament is an advanced formula of fermented zyme and micronutrients. It works at the cellular level to enhance plant energy, metabolism, and nutrient assimilation, guaranteeing superior crop performance during all critical growth stages.",
-    "availabePacking": "5 Kg & 10 Kg",
-    "application": [
-      {
-        "stage": "First",
-        "details": "At the time of field preparation/ early vegetative stage."
-      },
-      {
-        "stage": "Second",
-        "details": "Before the initiation of the flowering/ fruiting stage."
-      }
-    ],
-    "dosage": "5 kg /acre, Broadcast.",
-    "crops": "Rice, Wheat, Cotton, Potato, Cumin, Vegetables, Groundnut, Sugarcane, etc.",
-    "benefits": [
-      "Enhanced plant metabolism",
-      "Promotes vigorous vegetative growth",
-      "Maximized flowering and fruiting",
-      "Increased crop yield and quality"
-    ],
-    "imageLink": "/images/products/Filament.png",
-    "relatedProducts": [
-      "CALDIOM",
-      "DHAMAAL",
-      "FILAMENT GOLD"
-    ]
-  },
-  {
-    "category": "Soil Health",
-    "isBiological": false,
-    "productName": "FILAMENT GOLD",
-    "solution": "Chemical Solutions",
-    "description": "Filament gold is a scientifically formulated granule combining the power of fulvic acid, humic acid, and a rich profile of natural bio-stimulants such as seaweeds, vitamins, amino acids and botanicals. It transforms nutrient efficiency and plant vigour from the root zone up.",
-    "availabePacking": "1 kg & 4 kg",
-    "application": [
-      {
-        "stage": "First",
-        "details": "At the time of field preparation/ early vegetative stage."
-      },
-      {
-        "stage": "Second",
-        "details": "Before the initiation of the flowering/ fruiting stage."
-      }
-    ],
-    "dosage": "4 kg/ acre, Broadcast.",
-    "crops": "Wheat, Paddy, Maize, Cumin, Cotton, Peanut, Tomato, Potato, Citrus, Banana, Papaya, Okra, Tea, Coffee, Black Pepper, Pomegranate, Cereals, Pulses, Oil seeds, Fruits, Vegetables, Plantation, Fiber crops, Forest and Nursery etc.",
-    "benefits": [
-      "Comprehensive soil health improvement",
-      "Enhanced nutrient and water use efficiency",
-      "Stronger root system and seedling vigour",
-      "Superior crop metabolism and yield"
-    ],
-    "imageLink": "/images/products/Filament Gold.png",
-    "relatedProducts": [
-      "CALDIOM",
-      "DHAMAAL",
-      "FILAMENT"
+      "BRIX AC 24",
+      "Flourra",
+      "NUTROCARE"
     ]
   },
   {
@@ -674,101 +418,6 @@
     ]
   },
   {
-    "category": "Plant Health",
-    "isBiological": false,
-    "productName": "ShootRoot",
-    "solution": "Chemical Solutions",
-    "description": "ShootRoot is an all-natural bio-stimulant powered by a synergistic blend of Kelp and Yucca extracts. Rich in naturally derived Kinetin and Auxin, it simultaneously drives root expansion and vegetative vigour to ensure rapid, balanced plant establishment.",
-    "availabePacking": "250 ml & 500 ml",
-    "application": [
-      {
-        "stage": "First",
-        "details": "During soaking of cuttings, or immediately after transplanting/sowing."
-      },
-      {
-        "stage": "Second",
-        "details": "At the time of early vegetative/ tillering phase/ to maximize branching."
-      }
-    ],
-    "dosage": "250ml/acre, Drip irrigation/ Drenching.",
-    "crops": "Suitable for all crops such as cereals, Pulses, Oil seeds, Fruit, Vegetables, Plantation, Fiber crops, Medicinal Crops, Forest and Nursery etc.",
-    "benefits": [
-      "Root and shoot improvement",
-      "Rapid seedling establishment",
-      "Enhanced plant vigour",
-      "High organic quality",
-      "Improves stress tolerance"
-    ],
-    "imageLink": "/images/products/Shoot Root.png",
-    "relatedProducts": [
-      "HUMMID",
-      "UPTAKE CEC",
-      "WAXY DC"
-    ]
-  },
-  {
-    "category": "Plant Health",
-    "isBiological": false,
-    "productName": "UPTAKE CEC",
-    "solution": "Chemical Solutions",
-    "description": "Uptake CEC is a Potent, fast-acting Fulvic Acid formula dramatically increases CEC and optimizes the uptake of macro and micronutrients. It improves nutrient mobility and plant metabolism, leading to stronger, more resilient plants and consistently higher yields.",
-    "availabePacking": "250 Gm & 500 Gm",
-    "application": [
-      {
-        "stage": "First",
-        "details": "At the time of field preparation or during early vegetative stages."
-      },
-      {
-        "stage": "Second",
-        "details": "During the peak vegetative growth and pre-flowering stage."
-      }
-    ],
-    "dosage": "100-400gm/acre, Broadcast/ Drip irrigation | 0.75-1gm/L, Foliar application.",
-    "crops": "Vegetables, Fruits, Field Crops, Ornamentals, Nurseries. Home Garden, Horticulture crop.",
-    "benefits": [
-      "Enhanced cation exchange capacity (CEC)",
-      "Superior nutrient translocation and uptake",
-      "Improved plant metabolism and vigour",
-      "Accelerated root and shoot development",
-      "Increased yield and quality"
-    ],
-    "imageLink": "/images/products/uptake.png",
-    "relatedProducts": [
-      "HUMMID",
-      "ShootRoot",
-      "WAXY DC"
-    ]
-  },
-  {
-    "category": "Plant Health",
-    "isBiological": false,
-    "productName": "WAXY DC",
-    "solution": "Chemical Solutions",
-    "description": "Waxy DC is a premium, non-ionic adjuvant formulated to maximize the effectiveness of every chemical and nutrient spray apply to crops. It radically lowers the surface tension of water, transforming spray droplets into a thin, uniform film that coats the entire plant surface.",
-    "availabePacking": "50 Ml, 100 Ml & 250 Ml",
-    "application": [
-      {
-        "stage": "Always",
-        "details": "Always incorporate WAXY DC into your tank mix for all foliar/ drip applications."
-      }
-    ],
-    "dosage": "5 ml/15 L of water (or 0.3 - 0.5 ml/ L of water).",
-    "crops": "Rose, Field Crops, Ornamentals, Home gardens, Nurseries & Vegetables",
-    "benefits": [
-      "Spreading power",
-      "Rain fastness",
-      "Uptake efficiency",
-      "Compatibility",
-      "Dosage rate"
-    ],
-    "imageLink": "/images/products/WAXY DC.png",
-    "relatedProducts": [
-      "HUMMID",
-      "ShootRoot",
-      "UPTAKE CEC"
-    ]
-  },
-  {
     "category": "Plant Fertility",
     "isBiological": true,
     "productName": "Nutricell",
@@ -803,353 +452,36 @@
     ]
   },
   {
-    "category": "Plant Fertility",
-    "isBiological": false,
-    "productName": "CACOLIQ",
-    "solution": "Chemical Solutions",
-    "description": "Cacoliq provides elite protection by maintaining cell walls and membranes, contributing to the plant's overall structure. Its highly concentrated formulation ensures that higher calcium levels are available to the plant to significantly increase yield and quality.",
-    "availabePacking": "250 Ml & 500 Ml",
-    "application": [
-      {
-        "stage": "First",
-        "details": "During the early vegetative stage to build plant structure."
-      },
-      {
-        "stage": "Second",
-        "details": "During the pre-flowering or fruit-setting stage."
-      }
-    ],
-    "dosage": "20ml / 15 L of water, Foliar application.",
-    "crops": "Suitable for all crops such as Cereals, Pulses, Oil seeds, Fruit, Vegetables, Plantation, Flower crops, Fiber crops, Tuber crops, Spices crops, Forest and Nursery etc.",
-    "benefits": [
-      "Structural integrity",
-      "Metabolic regulator",
-      "Eco-safe choice",
-      "Systemic action"
-    ],
-    "imageLink": "/images/products/CACOLIQ.png",
-    "relatedProducts": [
-      "CALBOM",
-      "CRYSTAL",
-      "FOLIARFERT - FLUX Boron 20%"
-    ]
-  },
-  {
-    "category": "Plant Fertility",
-    "isBiological": false,
-    "productName": "CRYSTAL",
-    "solution": "Chemical Solutions",
-    "description": "Crystal provides elite protection against nutrient deficiencies through a broad spectrum of micronutrients. Its unique concentration of Zinc, Boron, Ferrous, Manganese, and Copper penetrates the plant to drive vigorous growth and significantly increase yield.",
-    "availabePacking": "1 Kg",
-    "application": [
-      {
-        "stage": "First",
-        "details": "Early vegetative growth stage."
-      },
-      {
-        "stage": "Second",
-        "details": "Pre-flowering stage to maximize potential."
-      }
-    ],
-    "dosage": "Foliar Application- 2 kg/ acre | Drip Irrigation- 2 kg/acre.",
-    "crops": "Suitable for all crops.",
-    "benefits": [
-      "Total metabolic support",
-      "Vigour & vitality",
-      "Advanced formula",
-      "Eco-safe choice"
-    ],
-    "imageLink": "/images/products/CRYSTAL.png",
-    "relatedProducts": [
-      "CALBOM",
-      "CACOLIQ",
-      "FOLIARFERT - FLUX Boron 20%"
-    ]
-  },
-  {
-    "category": "Plant Fertility",
-    "isBiological": false,
-    "productName": "FOLIARFERT - FLUX Boron 20%",
-    "solution": "Chemical Solutions",
-    "description": "Foliarfert provides elite protection against physiological disorders like fruit cracking and poor seed setting. Its advanced formulation ensures immediate absorption and systemic action, making it the scientific choice for sustainable and high-yield farming.",
+    "category": "Plant Protection",
+    "isBiological": true,
+    "productName": "BEAUVER",
+    "solution": "Biological Solutions",
+    "description": "Beauver is a high-performance, entomopathogenic fungal formulation designed for growers seeking a powerful, eco-friendly alternative to synthetic pesticides. Leveraging the natural predatory power of beneficial fungi, Beauver provides broad-spectrum control against whitefly, aphid, thrips, grasshoppers and certain beetles, without leaving harmful residues.",
     "availabePacking": "250 Gm, 500 Gm & 1 Kg",
     "application": [
       {
         "stage": "First",
-        "details": "During the early vegetative growth stage."
+        "details": "At the onset of pest infestation or during the early vegetative stage as a protective measure."
       },
       {
         "stage": "Second",
-        "details": "During the pre-flowering or fruit-set stage."
+        "details": "Repeat 7-10 days later if pest pressure persists to ensure complete coverage of new growth."
       }
     ],
-    "dosage": "Soil Application: 1.5-2 kg/ acre, Broadcast. | Foliar Application: 1-1.5 gm/ L of water.",
-    "crops": "Suitable for all crops.",
+    "dosage": "Soil application: 250gm/acre, Mix with 100 kg of FYM/compost & broadcast. | Foliar/Drip application: 500gm/acre, Repeat at 7-10 days intervals, if pest pressure persists. | Seed treatment: Mix 10-20 gm of Beauver with 50 ml of water & treat the 1 kg of seeds.",
+    "crops": "Paddy, Wheat, Maize, Pulses, Oil seeds, Cotton, Tomato, Chilly, Capsicum, Chilies, Cabbage, Cauliflower, Cucurbits, Beans, Pea, Cardamom, Apple, Grapes, Citrus, Mango, Guava, Papaya, Pomegranate, Cumin, Ginger, Tea and Plantation crops.",
     "benefits": [
-      "Quality guard",
-      "Sugar translocator",
-      "Stress resilience",
-      "Advanced formula"
+      "Targeted pest control",
+      "Natural protection",
+      "Rapid integration",
+      "Enhanced plant safety",
+      "Environmentally Friendly"
     ],
-    "imageLink": "/images/products/Flux.png",
+    "imageLink": "/images/products/Beauver.png",
     "relatedProducts": [
-      "CALBOM",
-      "CACOLIQ",
-      "CRYSTAL"
-    ]
-  },
-  {
-    "category": "Plant Fertility",
-    "isBiological": false,
-    "productName": "FOLIARFERT - FLUX Zn 12%",
-    "solution": "Chemical Solutions",
-    "description": "Flux zinc is a premium, imported Zn-EDTA chelated micronutrient designed to maximize crop yields by correcting zinc deficiencies. Unlike conventional products, Flux zinc is powered by special chelating agents that ensure rapid absorption even in difficult soil conditions.",
-    "availabePacking": "100 Gm, 250 Gm & 500 Gm",
-    "application": [
-      {
-        "stage": "Maximum Potential",
-        "details": "Pre-flowering & post-flowering stage for maximum potential."
-      }
-    ],
-    "dosage": "Soil Application: 1-2 kg/ acre, Broadcast. | Foliar Application: 0.5-1.0 gm/ L of water.",
-    "crops": "Suitable for all crops.",
-    "benefits": [
-      "Efficiency lead",
-      "Systemic action",
-      "Soil versatility",
-      "Yield & vitality"
-    ],
-    "imageLink": "/images/products/Flux Zn.png",
-    "relatedProducts": [
-      "CALBOM",
-      "CACOLIQ",
-      "CRYSTAL"
-    ]
-  },
-  {
-    "category": "Plant Fertility",
-    "isBiological": false,
-    "productName": "NORTURE",
-    "solution": "Chemical Solutions",
-    "description": "Norture provides elite protection against multi-nutrient deficiencies with a broad spectrum of essential minerals. Its unique concentration penetrates the plant to drive vigorous growth and significantly increase flower retention and yield.",
-    "availabePacking": "125 Gm",
-    "application": [
-      {
-        "stage": "First",
-        "details": "During the early vegetative growth stage."
-      },
-      {
-        "stage": "Second",
-        "details": "During the pre-flowering stage."
-      }
-    ],
-    "dosage": "250gm/acre, Foliar Application.",
-    "crops": "Suitable for all crops.",
-    "benefits": [
-      "Comprehensive nutrition",
-      "Yield maximizer",
-      "Vigour & vitality",
-      "Eco-safe choice",
-      "Advanced formula"
-    ],
-    "imageLink": "/images/products/NORTURE.png",
-    "relatedProducts": [
-      "CALBOM",
-      "CACOLIQ",
-      "CRYSTAL"
-    ]
-  },
-  {
-    "category": "Plant Fertility",
-    "isBiological": false,
-    "productName": "NUTRIMAX",
-    "solution": "Chemical Solutions",
-    "description": "Nutrimax provides elite nutrition through a broad spectrum of Macro and Micro nutrients. Its unique liquid concentration penetrates the plant to drive vigorous growth and significantly increase flower retention and yield. It is the scientific choice for sustainable and high-quality farming.",
-    "availabePacking": "250 Ml & 500 Ml",
-    "application": [
-      {
-        "stage": "First",
-        "details": "At the early vegetative growth stage to ensure robust structural development."
-      },
-      {
-        "stage": "Second",
-        "details": "During the pre-flowering stage to maximize reproductive potential and fruit set."
-      }
-    ],
-    "dosage": "Foliar Application: 2ml/ L of water. | Drip Application: 1 L/ ac.",
-    "crops": "Suitable for all crops",
-    "benefits": [
-      "Total nutrition",
-      "Yield maximizer",
-      "Vigour & vitality",
-      "Advanced formula"
-    ],
-    "imageLink": "/images/products/NUTRIMAX.png",
-    "relatedProducts": [
-      "CALBOM",
-      "CACOLIQ",
-      "CRYSTAL"
-    ]
-  },
-  {
-    "category": "Plant Fertility",
-    "isBiological": false,
-    "productName": "NUTRIRICH",
-    "solution": "Chemical Solutions",
-    "description": "Nutririch provides elite protection against nutrient deficiencies through its unique liquid concentration of NPK and secondary minerals. It penetrates the plant to drive vigorous growth and significantly increase harvest quality.",
-    "availabePacking": "250 Ml & 500 Ml",
-    "application": [
-      {
-        "stage": "First",
-        "details": "During the early vegetative growth stage to build root biomass and plant strength."
-      },
-      {
-        "stage": "Second",
-        "details": "During the post-bloom or physiological maturity stage to maximize fruit quality."
-      }
-    ],
-    "dosage": "Foliar Application: 2ml/ L of water.",
-    "crops": "Suitable for all crops such as Cereals, Pulses, Oil seeds, Fruit, Vegetables, Plantation, Flower crops, Fiber crops, Tuber crops, Spices crops, Forest and Nursery etc.",
-    "benefits": [
-      "Photosynthesis enhancer",
-      "Yield & quality maximizer",
-      "Comprehensive formula",
-      "Eco-safe choice"
-    ],
-    "imageLink": "/images/products/NUTRIRICH.png",
-    "relatedProducts": [
-      "CALBOM",
-      "CACOLIQ",
-      "CRYSTAL"
-    ]
-  },
-  {
-    "category": "Plant Fertility",
-    "isBiological": false,
-    "productName": "SIXXEER",
-    "solution": "Chemical Solutions",
-    "description": "Sixxer provides elite protection against micronutrient deficiencies. Its unique chelated concentration penetrates the plant to drive vigorous growth and significantly increase flower retention and yield. It is the natural choice for farmers seeking both protection and productivity in one bottle.",
-    "availabePacking": "100 Gm",
-    "application": [
-      {
-        "stage": "First",
-        "details": "At the onset of nutrient deficiency or during the early vegetative growth stage."
-      },
-      {
-        "stage": "Second",
-        "details": "During the pre-flowering stage to maximize reproductive potential."
-      }
-    ],
-    "dosage": "250-500gm/ acre (0.5-1gm/ L of water).",
-    "crops": "All Vegetables like Tomato, Capsicum, Brinjal, Cabbage, Okra, Cauliflower, Carrot, Potato, Chili, Cucumber etc.; all Fruit crops, Cereals, Pulses, Oil seeds and Ornamental crops.",
-    "benefits": [
-      "Completely Chelated",
-      "Efficiency Lead",
-      "Vigour & Vitality",
-      "Eco-Safe Choice"
-    ],
-    "imageLink": "/images/products/SIXXEER.png",
-    "relatedProducts": [
-      "CALBOM",
-      "CACOLIQ",
-      "CRYSTAL"
-    ]
-  },
-  {
-    "category": "Plant Fertility",
-    "isBiological": false,
-    "productName": "SPARKLING",
-    "solution": "Chemical Solutions",
-    "description": "Sparkling provides elite protection against zinc deficiency, a critical micronutrient for cellular function. Its unique Zinc Sulphate Monohydrate concentration penetrates the plant to drive vigorous growth and significantly increase flower retention and yield.",
-    "availabePacking": "1 Kg",
-    "application": [
-      {
-        "stage": "First",
-        "details": "At the onset of growth or early vegetative stage."
-      },
-      {
-        "stage": "Second",
-        "details": "During the pre-flowering stage to maximize crop potential."
-      }
-    ],
-    "dosage": "Soil Application: 2 kg/ acre, Broadcast. | Drip or Flood Irrigation: 2 kg/ acre.",
-    "crops": "Suitable for all crops.",
-    "benefits": [
-      "Enzyme activator",
-      "Vigour & vitality",
-      "Yield maximizer",
-      "Eco-safe choice",
-      "Advanced formula"
-    ],
-    "imageLink": "/images/products/SPARKLING.png",
-    "relatedProducts": [
-      "CALBOM",
-      "CACOLIQ",
-      "CRYSTAL"
-    ]
-  },
-  {
-    "category": "Plant Fertility",
-    "isBiological": false,
-    "productName": "VITAAL",
-    "solution": "Chemical Solutions",
-    "description": "Vitaal provides elite protection against growth stagnation through its advanced Nitrate Urea technology. Its unique concentration penetrates the plant to drive vigorous growth and significantly increase vegetative yield.",
-    "availabePacking": "1 Ltr",
-    "application": [
-      {
-        "stage": "First",
-        "details": "At the onset of the early vegetative growth stage."
-      },
-      {
-        "stage": "Second",
-        "details": "During the mid-growth stage to maintain peak nutrient level."
-      }
-    ],
-    "dosage": "1 L/acre, Foliar Application.",
-    "crops": "Suitable for all crops",
-    "benefits": [
-      "Advanced research formula",
-      "Vigour & vitality",
-      "Efficient nutrient delivery",
-      "Eco-safe choice"
-    ],
-    "imageLink": "/images/products/VITAAL.png",
-    "relatedProducts": [
-      "CALBOM",
-      "CACOLIQ",
-      "CRYSTAL"
-    ]
-  },
-  {
-    "category": "Plant Fertility",
-    "isBiological": false,
-    "productName": "ZINOXSS",
-    "solution": "Chemical Solutions",
-    "description": "Zinoxss provides elite protection against growth-stunting zinc deficiencies. Its unique micronized formulation penetrates the plant tissues efficiently to drive vigorous growth and significantly increase flower retention and yield.",
-    "availabePacking": "250 Ml",
-    "application": [
-      {
-        "stage": "First",
-        "details": "During the early vegetative growth stage to drive metabolic activity."
-      },
-      {
-        "stage": "Second",
-        "details": "During the pre-flowering or grain-filling stage to maximize yield potential."
-      }
-    ],
-    "dosage": "Foliar Application: 1-1.5ml / L of water; 0.5ml/L for grapes & 0.5-0.75 ml/L for onion & cotton.",
-    "crops": "Suitable for all crops, especially paddy, maize, citrus, and vegetables.",
-    "benefits": [
-      "Cost-effective suspension",
-      "Advanced formulation",
-      "Yield & vitality",
-      "Versatile delivery"
-    ],
-    "imageLink": "/images/products/ZINOXSS.png",
-    "relatedProducts": [
-      "CALBOM",
-      "CACOLIQ",
-      "CRYSTAL"
+      "BRAVO",
+      "BROADCAST",
+      "CKINNGG"
     ]
   },
   {
@@ -1578,6 +910,645 @@
     ]
   },
   {
+    "category": "Soil Health",
+    "isBiological": false,
+    "productName": "CALDIOM",
+    "solution": "Chemical Solutions",
+    "description": "Caldiom provides elite-level calcium nutrition through a concentrated formula that allows for higher input availability. Beyond mere nutrition, Calcium serves as a critical messenger within the plant, coordinating responses to stress and optimizing how nutrients are absorbed.",
+    "availabePacking": "2 kg",
+    "application": [
+      {
+        "stage": "First",
+        "details": "Early growth phase to prevent structural weaknesses."
+      },
+      {
+        "stage": "Second",
+        "details": "Peak reproductive or fruit development stage to maximize quality."
+      }
+    ],
+    "dosage": "2.5-4 kg/ acre, Broadcast.",
+    "crops": "Agrarian Caldiom is suitable for all crops such as Cereals, Sugarcane, Pulses, Oil seeds, Fruit, Vegetables, Plantation, Flower crops, Fiber crops, Tuber crops, Spices crops, Forest and Nursery etc.",
+    "benefits": [
+      "Advanced cell wall support",
+      "Regulatory master",
+      "Enhanced nutrient uptake",
+      "Superior harvest strength",
+      "High concentration formula"
+    ],
+    "imageLink": "/images/products/CALDIOM.png",
+    "relatedProducts": [
+      "DHAMAAL",
+      "FILAMENT",
+      "FILAMENT GOLD"
+    ]
+  },
+  {
+    "category": "Soil Health",
+    "isBiological": false,
+    "productName": "DHAMAAL",
+    "solution": "Chemical Solutions",
+    "description": "A premium granular soil conditioner, powered by a balanced matrix of organic matter and essential minerals. It is engineered to structurally improve the soil, enhance water and nutrient use efficiency, and provide a stable, nutrient-rich environment for robust plant development.",
+    "availabePacking": "2 kg",
+    "application": [
+      {
+        "stage": "First",
+        "details": "At the time of field preparation or before planting."
+      },
+      {
+        "stage": "Second",
+        "details": "After 40-60 days of sowing/ transplanting."
+      }
+    ],
+    "dosage": "2-4 kg /acre",
+    "crops": "Paddy, Cotton, Chilly, Sugarcane, Banana, Fruit crops, and vegetable crops.",
+    "benefits": [
+      "Optimized soil health and structure",
+      "Increased water retention capacity",
+      "Improved nutrient use efficiency",
+      "Stronger root development"
+    ],
+    "imageLink": "/images/products/DHAMAAL.png",
+    "relatedProducts": [
+      "CALDIOM",
+      "FILAMENT",
+      "FILAMENT GOLD"
+    ]
+  },
+  {
+    "category": "Soil Health",
+    "isBiological": false,
+    "productName": "FILAMENT",
+    "solution": "Chemical Solutions",
+    "description": "Filament is an advanced formula of fermented zyme and micronutrients. It works at the cellular level to enhance plant energy, metabolism, and nutrient assimilation, guaranteeing superior crop performance during all critical growth stages.",
+    "availabePacking": "5 Kg & 10 Kg",
+    "application": [
+      {
+        "stage": "First",
+        "details": "At the time of field preparation/ early vegetative stage."
+      },
+      {
+        "stage": "Second",
+        "details": "Before the initiation of the flowering/ fruiting stage."
+      }
+    ],
+    "dosage": "5 kg /acre, Broadcast.",
+    "crops": "Rice, Wheat, Cotton, Potato, Cumin, Vegetables, Groundnut, Sugarcane, etc.",
+    "benefits": [
+      "Enhanced plant metabolism",
+      "Promotes vigorous vegetative growth",
+      "Maximized flowering and fruiting",
+      "Increased crop yield and quality"
+    ],
+    "imageLink": "/images/products/Filament.png",
+    "relatedProducts": [
+      "CALDIOM",
+      "DHAMAAL",
+      "FILAMENT GOLD"
+    ]
+  },
+  {
+    "category": "Soil Health",
+    "isBiological": false,
+    "productName": "FILAMENT GOLD",
+    "solution": "Chemical Solutions",
+    "description": "Filament gold is a scientifically formulated granule combining the power of fulvic acid, humic acid, and a rich profile of natural bio-stimulants such as seaweeds, vitamins, amino acids and botanicals. It transforms nutrient efficiency and plant vigour from the root zone up.",
+    "availabePacking": "1 kg & 4 kg",
+    "application": [
+      {
+        "stage": "First",
+        "details": "At the time of field preparation/ early vegetative stage."
+      },
+      {
+        "stage": "Second",
+        "details": "Before the initiation of the flowering/ fruiting stage."
+      }
+    ],
+    "dosage": "4 kg/ acre, Broadcast.",
+    "crops": "Wheat, Paddy, Maize, Cumin, Cotton, Peanut, Tomato, Potato, Citrus, Banana, Papaya, Okra, Tea, Coffee, Black Pepper, Pomegranate, Cereals, Pulses, Oil seeds, Fruits, Vegetables, Plantation, Fiber crops, Forest and Nursery etc.",
+    "benefits": [
+      "Comprehensive soil health improvement",
+      "Enhanced nutrient and water use efficiency",
+      "Stronger root system and seedling vigour",
+      "Superior crop metabolism and yield"
+    ],
+    "imageLink": "/images/products/Filament Gold.png",
+    "relatedProducts": [
+      "CALDIOM",
+      "DHAMAAL",
+      "FILAMENT"
+    ]
+  },
+  {
+    "category": "Plant Health",
+    "isBiological": false,
+    "productName": "HUMMID",
+    "solution": "Chemical Solutions",
+    "description": "Hummid is a premium soil conditioner featuring 98% water-soluble humic acid derived from high-quality Leonardite. Rapidly dissolves to boost nutrient uptake, stimulate massive root growth, and optimize soil structure. It's the ultimate partner for improving fertilizer efficiency and crop stress resistance, leading to stronger, healthier plants and premium yields.",
+    "availabePacking": "400 Gm",
+    "application": [
+      {
+        "stage": "First",
+        "details": "At the time of early vegetative stage/ shortly after transplanting."
+      },
+      {
+        "stage": "Second",
+        "details": "During the late vegetative growth phase/early fruiting stage."
+      }
+    ],
+    "dosage": "400gm/acre, Broadcast/ Drip irrigation, 2-3 times at 20-30 days of interval. | 0.3-0.5 gm/L, Foliar spray, 2-3 times at 20-30 days of interval.",
+    "crops": "Vegetables, Fruits, Field Crops, Ornamentals, Nurseries, Home Garden, Horticulture crop.",
+    "benefits": [
+      "Enhanced nutrient availability",
+      "Superior Root Development",
+      "Increased fertilizer efficiency",
+      "Improved water retention",
+      "Optimised soil health"
+    ],
+    "imageLink": "/images/products/Hummid.png",
+    "relatedProducts": [
+      "ShootRoot",
+      "UPTAKE CEC",
+      "WAXY DC"
+    ]
+  },
+  {
+    "category": "Plant Health",
+    "isBiological": false,
+    "productName": "ShootRoot",
+    "solution": "Chemical Solutions",
+    "description": "ShootRoot is an all-natural bio-stimulant powered by a synergistic blend of Kelp and Yucca extracts. Rich in naturally derived Kinetin and Auxin, it simultaneously drives root expansion and vegetative vigour to ensure rapid, balanced plant establishment.",
+    "availabePacking": "250 ml & 500 ml",
+    "application": [
+      {
+        "stage": "First",
+        "details": "During soaking of cuttings, or immediately after transplanting/sowing."
+      },
+      {
+        "stage": "Second",
+        "details": "At the time of early vegetative/ tillering phase/ to maximize branching."
+      }
+    ],
+    "dosage": "250ml/acre, Drip irrigation/ Drenching.",
+    "crops": "Suitable for all crops such as cereals, Pulses, Oil seeds, Fruit, Vegetables, Plantation, Fiber crops, Medicinal Crops, Forest and Nursery etc.",
+    "benefits": [
+      "Root and shoot improvement",
+      "Rapid seedling establishment",
+      "Enhanced plant vigour",
+      "High organic quality",
+      "Improves stress tolerance"
+    ],
+    "imageLink": "/images/products/Shoot Root.png",
+    "relatedProducts": [
+      "HUMMID",
+      "UPTAKE CEC",
+      "WAXY DC"
+    ]
+  },
+  {
+    "category": "Plant Health",
+    "isBiological": false,
+    "productName": "UPTAKE CEC",
+    "solution": "Chemical Solutions",
+    "description": "Uptake CEC is a Potent, fast-acting Fulvic Acid formula dramatically increases CEC and optimizes the uptake of macro and micronutrients. It improves nutrient mobility and plant metabolism, leading to stronger, more resilient plants and consistently higher yields.",
+    "availabePacking": "250 Gm & 500 Gm",
+    "application": [
+      {
+        "stage": "First",
+        "details": "At the time of field preparation or during early vegetative stages."
+      },
+      {
+        "stage": "Second",
+        "details": "During the peak vegetative growth and pre-flowering stage."
+      }
+    ],
+    "dosage": "100-400gm/acre, Broadcast/ Drip irrigation | 0.75-1gm/L, Foliar application.",
+    "crops": "Vegetables, Fruits, Field Crops, Ornamentals, Nurseries. Home Garden, Horticulture crop.",
+    "benefits": [
+      "Enhanced cation exchange capacity (CEC)",
+      "Superior nutrient translocation and uptake",
+      "Improved plant metabolism and vigour",
+      "Accelerated root and shoot development",
+      "Increased yield and quality"
+    ],
+    "imageLink": "/images/products/uptake.png",
+    "relatedProducts": [
+      "HUMMID",
+      "ShootRoot",
+      "WAXY DC"
+    ]
+  },
+  {
+    "category": "Plant Health",
+    "isBiological": false,
+    "productName": "WAXY DC",
+    "solution": "Chemical Solutions",
+    "description": "Waxy DC is a premium, non-ionic adjuvant formulated to maximize the effectiveness of every chemical and nutrient spray apply to crops. It radically lowers the surface tension of water, transforming spray droplets into a thin, uniform film that coats the entire plant surface.",
+    "availabePacking": "50 Ml, 100 Ml & 250 Ml",
+    "application": [
+      {
+        "stage": "Always",
+        "details": "Always incorporate WAXY DC into your tank mix for all foliar/ drip applications."
+      }
+    ],
+    "dosage": "5 ml/15 L of water (or 0.3 - 0.5 ml/ L of water).",
+    "crops": "Rose, Field Crops, Ornamentals, Home gardens, Nurseries & Vegetables",
+    "benefits": [
+      "Spreading power",
+      "Rain fastness",
+      "Uptake efficiency",
+      "Compatibility",
+      "Dosage rate"
+    ],
+    "imageLink": "/images/products/WAXY DC.png",
+    "relatedProducts": [
+      "HUMMID",
+      "ShootRoot",
+      "UPTAKE CEC"
+    ]
+  },
+  {
+    "category": "Plant Fertility",
+    "isBiological": false,
+    "productName": "CACOLIQ",
+    "solution": "Chemical Solutions",
+    "description": "Cacoliq provides elite protection by maintaining cell walls and membranes, contributing to the plant's overall structure. Its highly concentrated formulation ensures that higher calcium levels are available to the plant to significantly increase yield and quality.",
+    "availabePacking": "250 Ml & 500 Ml",
+    "application": [
+      {
+        "stage": "First",
+        "details": "During the early vegetative stage to build plant structure."
+      },
+      {
+        "stage": "Second",
+        "details": "During the pre-flowering or fruit-setting stage."
+      }
+    ],
+    "dosage": "20ml / 15 L of water, Foliar application.",
+    "crops": "Suitable for all crops such as Cereals, Pulses, Oil seeds, Fruit, Vegetables, Plantation, Flower crops, Fiber crops, Tuber crops, Spices crops, Forest and Nursery etc.",
+    "benefits": [
+      "Structural integrity",
+      "Metabolic regulator",
+      "Eco-safe choice",
+      "Systemic action"
+    ],
+    "imageLink": "/images/products/CACOLIQ.png",
+    "relatedProducts": [
+      "CALBOM",
+      "CRYSTAL",
+      "FOLIARFERT - FLUX Boron 20%"
+    ]
+  },
+  {
+    "category": "Plant Fertility",
+    "isBiological": false,
+    "productName": "CALBOM",
+    "solution": "Chemical Solutions",
+    "description": "Calbom provides elite structural support through its unique combination of Calcium, Boron, Manganese, and Zinc. It doesn't just help plants grow; it helps them grow stronger and produce better.",
+    "availabePacking": "100 Ml & 250 Ml",
+    "application": [
+      {
+        "stage": "First",
+        "details": "Early vegetative growth stage to build stem thickness."
+      },
+      {
+        "stage": "Second",
+        "details": "Pre-flowering to fruit development stage to improve fruit set and colour."
+      }
+    ],
+    "dosage": "Foliar Application- 250ml/ acre | Drip Irrigation- 500ml/acre",
+    "crops": "Calbom is suitable for all crops such as cereals, Pulses, Oil seeds, Fruit, Vegetables, Plantation and Fiber crops etc.",
+    "benefits": [
+      "Epidermis shield",
+      "Sugar transport pro",
+      "Visual excellence",
+      "Yield stability"
+    ],
+    "imageLink": "/images/products/Calbom.png",
+    "relatedProducts": [
+      "CACOLIQ",
+      "CRYSTAL",
+      "FOLIARFERT - FLUX Boron 20%"
+    ]
+  },
+  {
+    "category": "Plant Fertility",
+    "isBiological": false,
+    "productName": "CRYSTAL",
+    "solution": "Chemical Solutions",
+    "description": "Crystal provides elite protection against nutrient deficiencies through a broad spectrum of micronutrients. Its unique concentration of Zinc, Boron, Ferrous, Manganese, and Copper penetrates the plant to drive vigorous growth and significantly increase yield.",
+    "availabePacking": "1 Kg",
+    "application": [
+      {
+        "stage": "First",
+        "details": "Early vegetative growth stage."
+      },
+      {
+        "stage": "Second",
+        "details": "Pre-flowering stage to maximize potential."
+      }
+    ],
+    "dosage": "Foliar Application- 2 kg/ acre | Drip Irrigation- 2 kg/acre.",
+    "crops": "Suitable for all crops.",
+    "benefits": [
+      "Total metabolic support",
+      "Vigour & vitality",
+      "Advanced formula",
+      "Eco-safe choice"
+    ],
+    "imageLink": "/images/products/CRYSTAL.png",
+    "relatedProducts": [
+      "CALBOM",
+      "CACOLIQ",
+      "FOLIARFERT - FLUX Boron 20%"
+    ]
+  },
+  {
+    "category": "Plant Fertility",
+    "isBiological": false,
+    "productName": "FOLIARFERT - FLUX Boron 20%",
+    "solution": "Chemical Solutions",
+    "description": "Foliarfert provides elite protection against physiological disorders like fruit cracking and poor seed setting. Its advanced formulation ensures immediate absorption and systemic action, making it the scientific choice for sustainable and high-yield farming.",
+    "availabePacking": "250 Gm, 500 Gm & 1 Kg",
+    "application": [
+      {
+        "stage": "First",
+        "details": "During the early vegetative growth stage."
+      },
+      {
+        "stage": "Second",
+        "details": "During the pre-flowering or fruit-set stage."
+      }
+    ],
+    "dosage": "Soil Application: 1.5-2 kg/ acre, Broadcast. | Foliar Application: 1-1.5 gm/ L of water.",
+    "crops": "Suitable for all crops.",
+    "benefits": [
+      "Quality guard",
+      "Sugar translocator",
+      "Stress resilience",
+      "Advanced formula"
+    ],
+    "imageLink": "/images/products/Flux.png",
+    "relatedProducts": [
+      "CALBOM",
+      "CACOLIQ",
+      "CRYSTAL"
+    ]
+  },
+  {
+    "category": "Plant Fertility",
+    "isBiological": false,
+    "productName": "FOLIARFERT - FLUX Zn 12%",
+    "solution": "Chemical Solutions",
+    "description": "Flux zinc is a premium, imported Zn-EDTA chelated micronutrient designed to maximize crop yields by correcting zinc deficiencies. Unlike conventional products, Flux zinc is powered by special chelating agents that ensure rapid absorption even in difficult soil conditions.",
+    "availabePacking": "100 Gm, 250 Gm & 500 Gm",
+    "application": [
+      {
+        "stage": "Maximum Potential",
+        "details": "Pre-flowering & post-flowering stage for maximum potential."
+      }
+    ],
+    "dosage": "Soil Application: 1-2 kg/ acre, Broadcast. | Foliar Application: 0.5-1.0 gm/ L of water.",
+    "crops": "Suitable for all crops.",
+    "benefits": [
+      "Efficiency lead",
+      "Systemic action",
+      "Soil versatility",
+      "Yield & vitality"
+    ],
+    "imageLink": "/images/products/Flux Zn.png",
+    "relatedProducts": [
+      "CALBOM",
+      "CACOLIQ",
+      "CRYSTAL"
+    ]
+  },
+  {
+    "category": "Plant Fertility",
+    "isBiological": false,
+    "productName": "NORTURE",
+    "solution": "Chemical Solutions",
+    "description": "Norture provides elite protection against multi-nutrient deficiencies with a broad spectrum of essential minerals. Its unique concentration penetrates the plant to drive vigorous growth and significantly increase flower retention and yield.",
+    "availabePacking": "125 Gm",
+    "application": [
+      {
+        "stage": "First",
+        "details": "During the early vegetative growth stage."
+      },
+      {
+        "stage": "Second",
+        "details": "During the pre-flowering stage."
+      }
+    ],
+    "dosage": "250gm/acre, Foliar Application.",
+    "crops": "Suitable for all crops.",
+    "benefits": [
+      "Comprehensive nutrition",
+      "Yield maximizer",
+      "Vigour & vitality",
+      "Eco-safe choice",
+      "Advanced formula"
+    ],
+    "imageLink": "/images/products/NORTURE.png",
+    "relatedProducts": [
+      "CALBOM",
+      "CACOLIQ",
+      "CRYSTAL"
+    ]
+  },
+  {
+    "category": "Plant Fertility",
+    "isBiological": false,
+    "productName": "NUTRIMAX",
+    "solution": "Chemical Solutions",
+    "description": "Nutrimax provides elite nutrition through a broad spectrum of Macro and Micro nutrients. Its unique liquid concentration penetrates the plant to drive vigorous growth and significantly increase flower retention and yield. It is the scientific choice for sustainable and high-quality farming.",
+    "availabePacking": "250 Ml & 500 Ml",
+    "application": [
+      {
+        "stage": "First",
+        "details": "At the early vegetative growth stage to ensure robust structural development."
+      },
+      {
+        "stage": "Second",
+        "details": "During the pre-flowering stage to maximize reproductive potential and fruit set."
+      }
+    ],
+    "dosage": "Foliar Application: 2ml/ L of water. | Drip Application: 1 L/ ac.",
+    "crops": "Suitable for all crops",
+    "benefits": [
+      "Total nutrition",
+      "Yield maximizer",
+      "Vigour & vitality",
+      "Advanced formula"
+    ],
+    "imageLink": "/images/products/NUTRIMAX.png",
+    "relatedProducts": [
+      "CALBOM",
+      "CACOLIQ",
+      "CRYSTAL"
+    ]
+  },
+  {
+    "category": "Plant Fertility",
+    "isBiological": false,
+    "productName": "NUTRIRICH",
+    "solution": "Chemical Solutions",
+    "description": "Nutririch provides elite protection against nutrient deficiencies through its unique liquid concentration of NPK and secondary minerals. It penetrates the plant to drive vigorous growth and significantly increase harvest quality.",
+    "availabePacking": "250 Ml & 500 Ml",
+    "application": [
+      {
+        "stage": "First",
+        "details": "During the early vegetative growth stage to build root biomass and plant strength."
+      },
+      {
+        "stage": "Second",
+        "details": "During the post-bloom or physiological maturity stage to maximize fruit quality."
+      }
+    ],
+    "dosage": "Foliar Application: 2ml/ L of water.",
+    "crops": "Suitable for all crops such as Cereals, Pulses, Oil seeds, Fruit, Vegetables, Plantation, Flower crops, Fiber crops, Tuber crops, Spices crops, Forest and Nursery etc.",
+    "benefits": [
+      "Photosynthesis enhancer",
+      "Yield & quality maximizer",
+      "Comprehensive formula",
+      "Eco-safe choice"
+    ],
+    "imageLink": "/images/products/NUTRIRICH.png",
+    "relatedProducts": [
+      "CALBOM",
+      "CACOLIQ",
+      "CRYSTAL"
+    ]
+  },
+  {
+    "category": "Plant Fertility",
+    "isBiological": false,
+    "productName": "SIXXEER",
+    "solution": "Chemical Solutions",
+    "description": "Sixxer provides elite protection against micronutrient deficiencies. Its unique chelated concentration penetrates the plant to drive vigorous growth and significantly increase flower retention and yield. It is the natural choice for farmers seeking both protection and productivity in one bottle.",
+    "availabePacking": "100 Gm",
+    "application": [
+      {
+        "stage": "First",
+        "details": "At the onset of nutrient deficiency or during the early vegetative growth stage."
+      },
+      {
+        "stage": "Second",
+        "details": "During the pre-flowering stage to maximize reproductive potential."
+      }
+    ],
+    "dosage": "250-500gm/ acre (0.5-1gm/ L of water).",
+    "crops": "All Vegetables like Tomato, Capsicum, Brinjal, Cabbage, Okra, Cauliflower, Carrot, Potato, Chili, Cucumber etc.; all Fruit crops, Cereals, Pulses, Oil seeds and Ornamental crops.",
+    "benefits": [
+      "Completely Chelated",
+      "Efficiency Lead",
+      "Vigour & Vitality",
+      "Eco-Safe Choice"
+    ],
+    "imageLink": "/images/products/SIXXEER.png",
+    "relatedProducts": [
+      "CALBOM",
+      "CACOLIQ",
+      "CRYSTAL"
+    ]
+  },
+  {
+    "category": "Plant Fertility",
+    "isBiological": false,
+    "productName": "SPARKLING",
+    "solution": "Chemical Solutions",
+    "description": "Sparkling provides elite protection against zinc deficiency, a critical micronutrient for cellular function. Its unique Zinc Sulphate Monohydrate concentration penetrates the plant to drive vigorous growth and significantly increase flower retention and yield.",
+    "availabePacking": "1 Kg",
+    "application": [
+      {
+        "stage": "First",
+        "details": "At the onset of growth or early vegetative stage."
+      },
+      {
+        "stage": "Second",
+        "details": "During the pre-flowering stage to maximize crop potential."
+      }
+    ],
+    "dosage": "Soil Application: 2 kg/ acre, Broadcast. | Drip or Flood Irrigation: 2 kg/ acre.",
+    "crops": "Suitable for all crops.",
+    "benefits": [
+      "Enzyme activator",
+      "Vigour & vitality",
+      "Yield maximizer",
+      "Eco-safe choice",
+      "Advanced formula"
+    ],
+    "imageLink": "/images/products/SPARKLING.png",
+    "relatedProducts": [
+      "CALBOM",
+      "CACOLIQ",
+      "CRYSTAL"
+    ]
+  },
+  {
+    "category": "Plant Fertility",
+    "isBiological": false,
+    "productName": "VITAAL",
+    "solution": "Chemical Solutions",
+    "description": "Vitaal provides elite protection against growth stagnation through its advanced Nitrate Urea technology. Its unique concentration penetrates the plant to drive vigorous growth and significantly increase vegetative yield.",
+    "availabePacking": "1 Ltr",
+    "application": [
+      {
+        "stage": "First",
+        "details": "At the onset of the early vegetative growth stage."
+      },
+      {
+        "stage": "Second",
+        "details": "During the mid-growth stage to maintain peak nutrient level."
+      }
+    ],
+    "dosage": "1 L/acre, Foliar Application.",
+    "crops": "Suitable for all crops",
+    "benefits": [
+      "Advanced research formula",
+      "Vigour & vitality",
+      "Efficient nutrient delivery",
+      "Eco-safe choice"
+    ],
+    "imageLink": "/images/products/VITAAL.png",
+    "relatedProducts": [
+      "CALBOM",
+      "CACOLIQ",
+      "CRYSTAL"
+    ]
+  },
+  {
+    "category": "Plant Fertility",
+    "isBiological": false,
+    "productName": "ZINOXSS",
+    "solution": "Chemical Solutions",
+    "description": "Zinoxss provides elite protection against growth-stunting zinc deficiencies. Its unique micronized formulation penetrates the plant tissues efficiently to drive vigorous growth and significantly increase flower retention and yield.",
+    "availabePacking": "250 Ml",
+    "application": [
+      {
+        "stage": "First",
+        "details": "During the early vegetative growth stage to drive metabolic activity."
+      },
+      {
+        "stage": "Second",
+        "details": "During the pre-flowering or grain-filling stage to maximize yield potential."
+      }
+    ],
+    "dosage": "Foliar Application: 1-1.5ml / L of water; 0.5ml/L for grapes & 0.5-0.75 ml/L for onion & cotton.",
+    "crops": "Suitable for all crops, especially paddy, maize, citrus, and vegetables.",
+    "benefits": [
+      "Cost-effective suspension",
+      "Advanced formulation",
+      "Yield & vitality",
+      "Versatile delivery"
+    ],
+    "imageLink": "/images/products/ZINOXSS.png",
+    "relatedProducts": [
+      "CALBOM",
+      "CACOLIQ",
+      "CRYSTAL"
+    ]
+  },
+  {
     "category": "Plant Protection",
     "isBiological": false,
     "productName": "CYPER",
@@ -1601,6 +1572,35 @@
     "imageLink": "/images/products/CYPER.png",
     "relatedProducts": [
       "EMAME",
+      "HOPPER",
+      "PROFFEN"
+    ]
+  },
+  {
+    "category": "Plant Protection",
+    "isBiological": false,
+    "productName": "EMAME",
+    "solution": "Chemical Solutions",
+    "description": "Emamectin Benzoate 5% SG is a water soluble granular formulation containing 5% active ingredient. It is a powerful insecticide with stomach action recommended for the control of bollworms, fruit & shoot borers, DBM, thrips, mites, and pod borers. Affected larvae become paralyzed and stop feeding shortly after exposure, subsequently dying within 2-4 days.",
+    "availabePacking": "50 Gm, 100 Gm, 250 Gm & 500 Gm",
+    "application": [
+      {
+        "stage": "First",
+        "details": "At the first observation of pest incidence (larval stage) for best results."
+      }
+    ],
+    "dosage": "80-100 grams per acre (Foliar spray) | 0.4-0.5 grams per liter of water for smaller applications.",
+    "crops": "Cotton, Okra, Cabbage, Chilli, Brinjal, Red gram, and Chickpea.",
+    "benefits": [
+      "Control of Bollworms and Fruit/Shoot borers",
+      "Effective against Diamondback Moth (DBM)",
+      "Targeted control of thrips, mites, and pod borers",
+      "Stomach action for effective larvae control",
+      "Rapid paralysis and death of target pests"
+    ],
+    "imageLink": "/images/products/Emame.png",
+    "relatedProducts": [
+      "CYPER",
       "HOPPER",
       "PROFFEN"
     ]
@@ -1636,34 +1636,6 @@
   {
     "category": "Plant Protection",
     "isBiological": false,
-    "productName": "PROFFEN",
-    "solution": "Chemical Solutions",
-    "description": "A powerful combination of Profenofos (40%) and Cypermethrin (4%) E.C. This dual-action insecticide offers quick knockdown and broad-spectrum control against complex pest attacks in cotton crops.",
-    "availabePacking": "100 Ml, 250 Ml, 500 Ml & 1 Ltr",
-    "application": [
-      {
-        "stage": "Bollworm Infestation",
-        "details": "Apply when bollworm or complex pest attacks are noticed in cotton."
-      }
-    ],
-    "dosage": "As per crop recommendations (Refer to label).",
-    "crops": "Cotton (Bollworms, complex pests).",
-    "benefits": [
-      "Dual-action formula",
-      "Quick knockdown effect",
-      "Broad-spectrum control",
-      "Effective against complex pests"
-    ],
-    "imageLink": "/images/products/PROFEN.png",
-    "relatedProducts": [
-      "EMAME",
-      "CYPER",
-      "HOPPER"
-    ]
-  },
-  {
-    "category": "Plant Protection",
-    "isBiological": false,
     "productName": "PHOSATE",
     "solution": "Chemical Solutions",
     "description": "A non-selective systemic herbicide containing Isopropyl amine salt of Glyphosate (40.60% w/w). It is highly effective for controlling a wide range of annual and perennial weeds by penetrating deep into the root system.",
@@ -1683,6 +1655,34 @@
       "Reliable non-crop area maintenance"
     ],
     "imageLink": "/images/products/PHOSATE.png",
+    "relatedProducts": [
+      "EMAME",
+      "CYPER",
+      "HOPPER"
+    ]
+  },
+  {
+    "category": "Plant Protection",
+    "isBiological": false,
+    "productName": "PROFFEN",
+    "solution": "Chemical Solutions",
+    "description": "A powerful combination of Profenofos (40%) and Cypermethrin (4%) E.C. This dual-action insecticide offers quick knockdown and broad-spectrum control against complex pest attacks in cotton crops.",
+    "availabePacking": "100 Ml, 250 Ml, 500 Ml & 1 Ltr",
+    "application": [
+      {
+        "stage": "Bollworm Infestation",
+        "details": "Apply when bollworm or complex pest attacks are noticed in cotton."
+      }
+    ],
+    "dosage": "As per crop recommendations (Refer to label).",
+    "crops": "Cotton (Bollworms, complex pests).",
+    "benefits": [
+      "Dual-action formula",
+      "Quick knockdown effect",
+      "Broad-spectrum control",
+      "Effective against complex pests"
+    ],
+    "imageLink": "/images/products/PROFEN.png",
     "relatedProducts": [
       "EMAME",
       "CYPER",
