@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react';
 import { Target, Leaf, ShieldCheck, HeartHandshake, TrendingUp } from 'lucide-react'; // Icons
+import MobileSocialRow from '../components/MobileSocialRow';
+import BannerOverlay from '../components/BannerOverlay';
 
 const About = () => {
   useEffect(() => {
@@ -13,9 +15,10 @@ const About = () => {
   ];
 
   return (
-    <main className="flex-grow bg-white animate-fade-in-up">
+    <main className="flex-grow animate-fade-in-up">
       {/* Hero Banner */}
       <section className="relative h-[400px] md:h-[500px] flex items-end overflow-hidden">
+        <BannerOverlay />
         <div className="absolute inset-0">
           <img
             src="/images/4e24c10b424f60dc63a56cf3c11822c519440fcf.jpg"
@@ -28,6 +31,7 @@ const About = () => {
           <h1 className="text-[2.5rem] sm:text-[3rem] md:text-[3.5rem] lg:text-[4rem] font-bebas font-black text-white tracking-[0.05em] uppercase leading-[0.9]">
             ABOUT <span className="text-[#76b947]">US</span>
           </h1>
+          <MobileSocialRow className="mt-8" />
         </div>
       </section>
 
@@ -79,7 +83,7 @@ const About = () => {
 
           {/* Overlapping Card - Positioned relative on mobile, absolute on desktop */}
           <div className="relative lg:absolute lg:top-1/2 lg:-translate-y-1/2 lg:left-[15%] w-[92%] sm:w-[85%] md:w-[70%] lg:w-[600px] bg-white p-8 md:p-16 lg:p-20 shadow-2xl z-30 -mt-20 mb-20 lg:my-0 mx-auto lg:mx-0">
-            <h2 className="text-[2.5rem] sm:text-[3rem] md:text-[3.5rem] lg:text-[4rem] font-bebas font-black tracking-[0.05em] mb-8 md:mb-10 uppercase leading-[0.9] lg:whitespace-nowrap">
+            <h2 className="text-3xl md:text-[2.5rem] font-bebas font-black tracking-[0.05em] mb-8 md:mb-10 uppercase leading-[0.9] lg:whitespace-nowrap">
               OUR CORE <span className="text-[#76b947]">VALUE</span>
             </h2>
 
@@ -105,7 +109,7 @@ const About = () => {
       <section className="bg-white py-24 md:py-32 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
 
-          <h2 className="text-[2.5rem] sm:text-[3rem] md:text-[3.5rem] lg:text-[4rem] font-bebas font-black tracking-[0.05em] mb-16 uppercase leading-[0.9]">
+          <h2 className="text-3xl md:text-[2.5rem] font-bebas font-black tracking-[0.05em] mb-16 uppercase leading-[0.9]">
             OUR <span className="text-[#76b947]">VISION</span>
           </h2>
 

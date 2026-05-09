@@ -1,14 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, FileText } from 'lucide-react';
+import MobileSocialRow from './MobileSocialRow';
+import BannerOverlay from './BannerOverlay';
 
 const Hero = () => {
   const images = [
     "/images/f82f7de733fd3f9b3af07beecec5716bcdf0ef22.png",
-    "/images/0c92d06746f135612ff1172b9ae4f720da293224.jpg",
-    "/images/21263f7b9fbbf3324e17d5a973246d44891e8197.jpg",
-    "/images/4e24c10b424f60dc63a56cf3c11822c519440fcf.jpg",
-    "/images/880f1e8ab1be57fb9bff37e37f5428e34eccfe63.jpg",
+    "/images/ChatGPT Image May 9, 2026, 01_43_27 PM.png",
+    "/images/4b7d73a96a96606d1ebdbdd26d08450cd68bc606.jpg",
+    "/images/c9fe7ae00f5ded6dd3bd0e62aca116db3f81f253.jpg",
+    "/images/farmer-holds-rice-hand (2).jpg.jpeg",
   ];
 
   const [currentImage, setCurrentImage] = useState(0);
@@ -22,6 +23,8 @@ const Hero = () => {
 
   return (
     <section id="home" className="relative flex items-center py-24 md:py-48 min-h-[80vh] lg:min-h-0 overflow-hidden">
+      {/* Banner Overlay (Socials & Brochure) */}
+      <BannerOverlay />
       {/* Background Slider */}
       <div className="absolute inset-0 z-0">
         {images.map((img, index) => (
@@ -40,47 +43,9 @@ const Hero = () => {
             />
           </div>
         ))}
-        <div className="absolute inset-0 bg-black/40"></div>
-        <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-transparent hidden lg:block"></div>
-        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-transparent to-black/40 lg:hidden"></div>
-      </div>
-
-      {/* Side Tabs Wrapper (Desktop Only) */}
-      <div className="hidden md:flex absolute inset-y-0 left-0 right-0 z-20 items-center justify-between pointer-events-none">
-        {/* Left Social Icons Stack */}
-        <div className="pointer-events-auto w-8 flex flex-col items-center gap-6 bg-black/40 backdrop-blur-md py-6 rounded-r-md border border-white/10 animate-fade-in-up">
-          <a 
-            href="https://www.instagram.com/agrariancrop?igsh=MWlnb2RpczBhODF4bA==" 
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-white hover:text-[#ffb300] transition-colors p-1"
-          >
-            <img src="/images/instagram logo.svg" alt="Instagram" className="w-4 h-4 filter brightness-0 invert" />
-          </a>
-          <a href="#" className="text-white hover:text-[#ffb300] transition-colors p-1">
-            <img src="/images/facebook logo.svg" alt="Facebook" className="w-5 h-5 filter brightness-0 invert" />
-          </a>
-          <a 
-            href="https://youtube.com/@agrariancrop9379?si=oF85VgRyzFBNsMgm" 
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-white hover:text-[#ffb300] transition-colors p-1"
-          >
-            <img src="/images/YouTube logo.svg" alt="YouTube" className="w-5 h-5 filter brightness-0 invert" />
-          </a>
-        </div>
-
-        {/* Right Brochure Button */}
-        <a 
-          href="/Brochure.pdf" 
-          target="_blank" 
-          rel="noopener noreferrer"
-          className="pointer-events-auto w-8 bg-black/40 backdrop-blur-md text-white py-8 rounded-l-md border border-white/10 flex flex-col items-center gap-2 group hover:bg-black/70 transition-all duration-300"
-        >
-          <span className="uppercase font-medium tracking-[0.1em] [writing-mode:vertical-lr] text-[10px]">
-            Brochure
-          </span>
-        </a>
+        <div className="absolute inset-0 bg-black/30"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/20 to-transparent hidden lg:block"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-black/30 lg:hidden"></div>
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto pl-12 sm:pl-20 lg:pl-24 pr-6 sm:pr-10 lg:pr-8 w-full">
@@ -100,40 +65,7 @@ const Hero = () => {
             </Link>
           </div>
 
-          {/* Mobile-only Social and Brochure Row */}
-          <div className="flex md:hidden items-center gap-6 animate-fade-in-up delay-300 mt-10">
-            <div className="flex gap-4">
-              <a 
-                href="https://www.instagram.com/agrariancrop?igsh=MWlnb2RpczBhODF4bA==" 
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-white/80 hover:text-white transition-colors"
-              >
-                <img src="/images/instagram logo.svg" alt="Instagram" className="w-5 h-5 filter brightness-0 invert" />
-              </a>
-              <a href="#" className="text-white/80 hover:text-white transition-colors">
-                <img src="/images/facebook logo.svg" alt="Facebook" className="w-5 h-5 filter brightness-0 invert" />
-              </a>
-              <a 
-                href="https://youtube.com/@agrariancrop9379?si=oF85VgRyzFBNsMgm" 
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-white/80 hover:text-white transition-colors"
-              >
-                <img src="/images/YouTube logo.svg" alt="YouTube" className="w-5 h-5 filter brightness-0 invert" />
-              </a>
-            </div>
-            <div className="w-[1px] h-6 bg-white/20"></div>
-            <a 
-              href="/Brochure.pdf" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-white/90 hover:text-white text-xs font-bold uppercase tracking-wider flex items-center gap-2"
-            >
-              <FileText className="w-4 h-4" />
-              Brochure
-            </a>
-          </div>
+          <MobileSocialRow className="mt-10" />
         </div>
       </div>
 

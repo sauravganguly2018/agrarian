@@ -72,11 +72,11 @@ const GrowersStories = () => {
   };
 
   return (
-    <section className="py-12 md:py-24 bg-white flex flex-col items-center overflow-hidden">
+    <section className="py-12 md:py-24 flex flex-col items-center overflow-hidden">
       <div className="w-full max-w-7xl px-4 sm:px-6 lg:px-8">
         
-        <div className="mb-8 md:mb-12">
-          <h2 className="text-[2.5rem] sm:text-[3rem] md:text-[3.5rem] lg:text-[4rem] font-bebas font-black text-[#1e1e1e] leading-[0.9] tracking-[0.05em] uppercase">
+        <div className="mb-12">
+          <h2 className="text-3xl md:text-[2.5rem] font-bebas font-black text-[#1e1e1e] leading-[0.9] tracking-[0.05em] uppercase">
             GROWERS <span className="text-[#76b947]">STORIES</span>
           </h2>
         </div>

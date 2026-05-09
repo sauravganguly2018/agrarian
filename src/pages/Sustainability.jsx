@@ -1,4 +1,6 @@
 import React, { useEffect } from 'react';
+import MobileSocialRow from '../components/MobileSocialRow';
+import BannerOverlay from '../components/BannerOverlay';
 
 const Sustainability = () => {
   useEffect(() => {
@@ -45,9 +47,10 @@ const Sustainability = () => {
   ];
 
   return (
-    <main className="flex-grow bg-[#fcfaf4] animate-fade-in-up">
+    <main className="flex-grow animate-fade-in-up">
       {/* Hero Banner */}
       <section className="relative h-[400px] md:h-[500px] flex items-end overflow-hidden">
+        <BannerOverlay />
         <div className="absolute inset-0">
           <img
             src="/images/4e24c10b424f60dc63a56cf3c11822c519440fcf.jpg"
@@ -60,6 +63,7 @@ const Sustainability = () => {
           <h1 className="text-[2.5rem] sm:text-[3rem] md:text-[3.5rem] lg:text-[4rem] font-bebas font-black text-white tracking-[0.05em] uppercase leading-[0.9]">
             SUSTAINABILITY
           </h1>
+          <MobileSocialRow className="mt-8" />
         </div>
       </section>
 

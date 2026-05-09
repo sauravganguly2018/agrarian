@@ -25,7 +25,7 @@ const FinanceSection = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20 w-full">
         <div className="max-w-3xl">
-          <h2 className="text-[2.5rem] sm:text-[3rem] md:text-[3.5rem] lg:text-[4rem] font-bebas font-black mb-6 leading-[0.9] tracking-[0.05em] text-white uppercase">
+          <h2 className="text-3xl md:text-[2.5rem] font-bebas font-black mb-6 leading-[0.9] tracking-[0.05em] text-white uppercase">
             AGRI <span className="text-[#ffb300]">FINANCE</span> FOR DEALERS
           </h2>
           

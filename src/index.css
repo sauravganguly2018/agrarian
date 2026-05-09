@@ -49,5 +49,6 @@
 
 body {
   font-family: 'Inter', sans-serif;
-  @apply text-gray-800 bg-gray-50;
+  @apply text-gray-800;
+  background-color: #F7F5F0;
 }

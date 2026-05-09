@@ -3,6 +3,8 @@ import { ArrowUpRight, FlaskConical, Bug, Search, X } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 import productsData from '../data/products.json';
 import ProductImage from '../components/ProductImage';
+import MobileSocialRow from '../components/MobileSocialRow';
+import BannerOverlay from '../components/BannerOverlay';
 
 const Solutions = () => {
   const location = useLocation();
@@ -37,9 +39,10 @@ const Solutions = () => {
   });
 
   return (
-    <main className="flex-grow bg-white animate-fade-in-up">
+    <main className="flex-grow animate-fade-in-up">
       {/* Hero Banner */}
       <section className="relative h-[400px] md:h-[500px] flex items-end overflow-hidden">
+        <BannerOverlay />
         <div className="absolute inset-0">
           <img 
             src="/images/4e24c10b424f60dc63a56cf3c11822c519440fcf.jpg" 
@@ -50,8 +53,9 @@ const Solutions = () => {
         </div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full pb-12 md:pb-16">
           <h1 className="text-[2.5rem] sm:text-[3rem] md:text-[3.5rem] lg:text-[4rem] font-bebas font-black text-white tracking-[0.05em] uppercase leading-[0.9]">
-            Explore Our <span className="text-[#76b947]">Solutions</span>
+            OUR <span className="text-[#76b947]">SOLUTIONS</span>
           </h1>
+          <MobileSocialRow className="mt-8" />
         </div>
       </section>
 

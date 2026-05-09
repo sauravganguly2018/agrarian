@@ -121,7 +121,7 @@ const ProductDetails = () => {
       <section className="bg-[#0a1f14] w-full py-24 px-4 sm:px-6 lg:px-8 overflow-hidden relative">
         <div className="max-w-7xl mx-auto relative z-10">
           
-          <h2 className="text-[2.5rem] sm:text-[3rem] md:text-[3.5rem] lg:text-[4rem] font-bebas font-black text-white tracking-[0.05em] leading-[0.9] uppercase mb-16">
+          <h2 className="text-3xl md:text-[2.5rem] font-bebas font-black text-white tracking-[0.05em] leading-[0.9] uppercase mb-12">
             KEY <span className="text-[#76b947]">BENEFITS</span>
           </h2>
 
@@ -153,7 +153,7 @@ const ProductDetails = () => {
       <section className="bg-white w-full pt-48 pb-24 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           
-          <h2 className="text-[2.5rem] sm:text-[3rem] md:text-[3.5rem] lg:text-[4rem] font-bebas font-black text-[#1e4a36] tracking-[0.05em] leading-[0.9] uppercase mb-16 text-left">
+          <h2 className="text-3xl md:text-[2.5rem] font-bebas font-black text-[#1e4a36] tracking-[0.05em] leading-[0.9] uppercase mb-12 text-left">
             RELATED <span className="text-[#76b947]">PRODUCTS</span>
           </h2>
 
@@ -180,7 +180,7 @@ const ProductDetails = () => {
                 />
 
                 <div className="text-left w-full">
-                  <h3 className="text-3xl font-black text-gray-900 mb-1">{p.productName}</h3>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-1">{p.productName}</h3>
                   <p className="text-gray-500 font-medium mb-10">{p.category}</p>
                   
                   <Link 

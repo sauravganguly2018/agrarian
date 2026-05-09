@@ -39,11 +39,11 @@ const Header = () => {
           </div>
  
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-4">
-            <nav className="flex items-center space-x-2">
+          <div className="hidden lg:flex items-center space-x-2">
+            <nav className="flex items-center space-x-1">
               <Link 
                 to="/" 
-                className={`px-6 py-2 rounded-full text-[15px] font-bold transition-all ${
+                className={`px-4 py-2 rounded-full text-[14px] font-bold transition-all ${
                   scrolled 
                     ? (isHome ? 'bg-white text-[#0a1f14]' : 'text-white hover:text-[#76b947]')
                     : (isHome ? 'bg-[#214d3e] text-white shadow-md' : 'text-gray-800 hover:text-agrarian-green')
@@ -54,7 +54,7 @@ const Header = () => {
  
               <Link 
                 to="/solutions" 
-                className={`px-6 py-2 rounded-full text-[15px] font-bold transition-all ${
+                className={`px-4 py-2 rounded-full text-[14px] font-bold transition-all ${
                   scrolled 
                     ? (isSolutions ? 'bg-white text-[#0a1f14]' : 'text-white hover:text-[#76b947]')
                     : (isSolutions ? 'bg-[#214d3e] text-white shadow-md' : 'text-gray-800 hover:text-agrarian-green')
@@ -65,7 +65,7 @@ const Header = () => {
  
               <Link 
                 to="/about" 
-                className={`px-6 py-2 rounded-full text-[15px] font-bold transition-all ${
+                className={`px-4 py-2 rounded-full text-[14px] font-bold transition-all ${
                   scrolled 
                     ? (isAbout ? 'bg-white text-[#0a1f14]' : 'text-white hover:text-[#76b947]')
                     : (isAbout ? 'bg-[#214d3e] text-white shadow-md' : 'text-gray-800 hover:text-agrarian-green')
@@ -76,7 +76,7 @@ const Header = () => {
 
               <Link 
                 to="/sustainability" 
-                className={`px-6 py-2 rounded-full text-[15px] font-bold transition-all ${
+                className={`px-4 py-2 rounded-full text-[14px] font-bold transition-all ${
                   scrolled 
                     ? (isSustainability ? 'bg-white text-[#0a1f14]' : 'text-white hover:text-[#76b947]')
                     : (isSustainability ? 'bg-[#214d3e] text-white shadow-md' : 'text-gray-800 hover:text-agrarian-green')
@@ -87,7 +87,7 @@ const Header = () => {
 
               <Link 
                 to="/gallery" 
-                className={`px-6 py-2 rounded-full text-[15px] font-bold transition-all ${
+                className={`px-4 py-2 rounded-full text-[14px] font-bold transition-all ${
                   scrolled 
                     ? (isGallery ? 'bg-white text-[#0a1f14]' : 'text-white hover:text-[#76b947]')
                     : (isGallery ? 'bg-[#214d3e] text-white shadow-md' : 'text-gray-800 hover:text-agrarian-green')
@@ -98,7 +98,7 @@ const Header = () => {
 
               <Link 
                 to="/news" 
-                className={`px-6 py-2 rounded-full text-[15px] font-bold transition-all ${
+                className={`px-4 py-2 rounded-full text-[14px] font-bold transition-all ${
                   scrolled 
                     ? (isNews ? 'bg-white text-[#0a1f14]' : 'text-white hover:text-[#76b947]')
                     : (isNews ? 'bg-[#214d3e] text-white shadow-md' : 'text-gray-800 hover:text-agrarian-green')
@@ -109,7 +109,7 @@ const Header = () => {
  
               <Link 
                 to="/contact" 
-                className={`px-6 py-2 rounded-full text-[15px] font-bold transition-all ${
+                className={`px-4 py-2 rounded-full text-[14px] font-bold transition-all ${
                   scrolled 
                     ? (isContact ? 'bg-white text-[#0a1f14]' : 'text-white hover:text-[#76b947]')
                     : (isContact ? 'bg-[#214d3e] text-white shadow-md' : 'text-gray-800 hover:text-agrarian-green')
@@ -121,7 +121,7 @@ const Header = () => {
           </div>
  
           {/* Mobile menu button */}
-          <div className="md:hidden flex items-center">
+          <div className="lg:hidden flex items-center">
             <button 
               onClick={() => setIsOpen(!isOpen)} 
               aria-label={isOpen ? "Close menu" : "Open menu"}
@@ -136,7 +136,7 @@ const Header = () => {
 
       {/* Mobile Navigation */}
       {isOpen && (
-        <div className="md:hidden bg-white shadow-lg absolute w-full z-50 border-t border-gray-100">
+        <div className="lg:hidden bg-white shadow-lg absolute w-full z-50 border-t border-gray-100">
           <div className="px-4 pt-2 pb-6 space-y-1">
             <Link 
               to="/" 
